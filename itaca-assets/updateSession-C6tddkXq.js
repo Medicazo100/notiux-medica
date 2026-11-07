@@ -1,0 +1,1 @@
+import{t as e}from"./authRequest-C5hHUNbV.js";import{t}from"./SessionPresenter-zGdpskhb.js";var n=async(n,r)=>{try{let i=await e(`/sessions/${n}`,{method:`PATCH`,data:{session:r}});return new t(i.data)}catch(e){throw console.error(`Updating session failed:`,e),e}};export{n as t};

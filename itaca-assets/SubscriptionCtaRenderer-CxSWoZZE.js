@@ -1,0 +1,1 @@
+function e({presentation:e,inApp:t,external:n}){return e.canOpenExternalWeb?n:e.canNavigateInApp?t:null}export{e as t};

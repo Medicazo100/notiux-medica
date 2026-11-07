@@ -1,0 +1,1 @@
+import{o as e}from"./rolldown-runtime-BCiCTKAo.js";import{Mn as t}from"./i18nInstance-De4VpWd_.js";var n=e(t());function r(e,t,r,i){var a=n.unstable_batchedUpdates?function(e){n.unstable_batchedUpdates(r,e)}:r;return e!=null&&e.addEventListener&&e.addEventListener(t,a,i),{remove:function(){e!=null&&e.removeEventListener&&e.removeEventListener(t,a,i)}}}export{r as t};

@@ -1,0 +1,1 @@
+import{t as e}from"./authRequest-C5hHUNbV.js";var t=async t=>(await e(`/quizzes?completed=true&page=${t}`,{method:`GET`})).data,n=async()=>(await e(`/quizzes/in_progress`,{method:`GET`})).data.quizzes;export{t as n,n as t};

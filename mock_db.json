@@ -1,0 +1,2386 @@
+{
+  "patients": [
+    {
+      "uuid": "p-1793818446314",
+      "id": "p-1793818446314",
+      "first_name": "raul",
+      "last_name": "ortega",
+      "full_name": "raul ortega",
+      "name": "raul ortega",
+      "dob": "1985-01-01",
+      "gender": "unspecified",
+      "phone": "+52 4535303820",
+      "mobile_number": "+52 4535303820",
+      "email": "",
+      "national_id": "",
+      "age": "",
+      "location": "Consultorio",
+      "tags": [],
+      "coverage_name": "Particular",
+      "coverage_member_id": "",
+      "emergency_contact_name": "",
+      "emergency_contact_phone": "",
+      "comments": "",
+      "civil_status": "",
+      "occupation": "",
+      "religion": "",
+      "weight": "",
+      "height": "",
+      "blood_type": "",
+      "bmi": "",
+      "completed_sessions_count": 0,
+      "completed_calls_count": 0,
+      "completed_documents_count": 1,
+      "completed_questionnaires_count": 0,
+      "created_at": "2026-11-04T18:54:06.314Z",
+      "items": [
+        {
+          "id": "med-p-1793818446314",
+          "name": "metoclopramida",
+          "dosage": "10mg",
+          "presentation": "10mg",
+          "frequency": "c/12h",
+          "instructions": "10 mg • Tomar cada 12 horas",
+          "status": "ongoing",
+          "stopped_at": null
+        }
+      ]
+    },
+    {
+      "uuid": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "id": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "first_name": "pedro",
+      "last_name": "suarez",
+      "full_name": "pedro suarez",
+      "name": "pedro suarez",
+      "dob": "1988-05-12",
+      "gender": "male",
+      "phone": "+52 55 1234 5678",
+      "mobile_number": "+52 55 1234 5678",
+      "email": "pedro.suarez@ejemplo.com",
+      "age": "38",
+      "location": "Consultorio",
+      "coverage_name": "Particular",
+      "completed_sessions_count": 1,
+      "completed_documents_count": 3,
+      "created_at": "2026-11-03T10:00:00.000Z",
+      "items": [
+        {
+          "name": "furosemida",
+          "dosage": "20mg",
+          "instructions": "1 cada 12h",
+          "stopped_at": null
+        },
+        {
+          "uuid": "med-1",
+          "name": "metoclopramida",
+          "dosage": "10mg",
+          "instructions": "10 mg • Tomar cada 12 horas",
+          "stopped_at": null
+        },
+        {
+          "id": "med-1793815409192-mm9v",
+          "name": "cualquier reaccion llamar al 4535303820",
+          "dosage": "",
+          "presentation": "",
+          "instructions": "",
+          "frequency": "",
+          "status": "ongoing",
+          "stopped_at": null
+        }
+      ]
+    },
+    {
+      "uuid": "p-1793810465830",
+      "id": "p-1793810465830",
+      "first_name": "alfonso",
+      "last_name": "salu",
+      "full_name": "alfonso salu",
+      "name": "alfonso salu",
+      "dob": "1985-01-01",
+      "gender": "male",
+      "phone": "",
+      "mobile_number": "",
+      "email": "",
+      "national_id": "",
+      "age": "56",
+      "location": "Consultorio",
+      "tags": [],
+      "coverage_name": "Particular",
+      "coverage_member_id": "",
+      "emergency_contact_name": "",
+      "emergency_contact_phone": "",
+      "comments": "",
+      "civil_status": "",
+      "occupation": "",
+      "religion": "",
+      "weight": "",
+      "height": "",
+      "blood_type": "",
+      "bmi": "",
+      "completed_sessions_count": 2,
+      "completed_calls_count": 0,
+      "completed_documents_count": 0,
+      "completed_questionnaires_count": 0,
+      "created_at": "2026-11-04T16:41:05.831Z",
+      "items": [
+        {
+          "name": "metoclopramida",
+          "dosage": "10mg",
+          "instructions": "c/12h",
+          "stopped_at": null
+        }
+      ],
+      "source_type": null,
+      "source_uuid": null,
+      "summary": "Paciente masculino de 56 años que acude a valoración por cuadro de dolor abdominal en epigastrio de aparición postprandial. Actualmente se encuentra bajo tratamiento con metoclopramida sin resolución completa del cuadro clínico. Se sospecha patología acidopéptica y se ajustará el manejo médico para su control sintomático.",
+      "summary_generated_at": "2026-11-04T21:33:30.178Z"
+    },
+    {
+      "uuid": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+      "id": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+      "full_name": "María González López",
+      "first_name": "María",
+      "last_name": "González López",
+      "gender": "female",
+      "email": "maria.gonzalez@ejemplo.com",
+      "mobile_number": "+52 55 1234 5678",
+      "dob": "1978-04-15",
+      "location": "Ciudad de México",
+      "tags": [
+        "Hipertensión",
+        "Diabetes Tipo 2",
+        "Control"
+      ],
+      "coverage_name": "IMSS / Particular",
+      "coverage_member_id": "IMSS-9876543210",
+      "emergency_contact_name": "Roberto González (Esposo)",
+      "emergency_contact_phone": "+52 55 8765 4321",
+      "comments": "Paciente en seguimiento estrecho de metas metabólicas y tensionales.",
+      "completed_sessions_count": 3,
+      "completed_calls_count": 1,
+      "completed_documents_count": 2,
+      "completed_questionnaires_count": 1,
+      "last_session_completed_at": "2026-11-02T10:30:00.000Z",
+      "created_at": "2026-10-15T09:00:00.000Z",
+      "items": [
+        {
+          "id": "med-a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+          "uuid": "med-a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+          "name": "metoclopramida",
+          "dosage": "10mg",
+          "presentation": "10mg",
+          "frequency": "c/12h",
+          "instructions": "10 mg • Tomar cada 12 horas",
+          "status": "ongoing",
+          "stopped_at": null
+        }
+      ]
+    },
+    {
+      "uuid": "b2c3d4e5-f6a1-4b2c-9d3e-4f5a6b7c8d9e",
+      "id": "b2c3d4e5-f6a1-4b2c-9d3e-4f5a6b7c8d9e",
+      "full_name": "Carlos Rodríguez Mendoza",
+      "first_name": "Carlos",
+      "last_name": "Rodríguez Mendoza",
+      "gender": "male",
+      "email": "carlos.rodriguez@ejemplo.com",
+      "mobile_number": "+52 55 2345 6789",
+      "dob": "1985-09-22",
+      "location": "Guadalajara, Jalisco",
+      "tags": [
+        "Cardiología",
+        "Dislipidemia"
+      ],
+      "coverage_name": "GNP Seguros",
+      "coverage_member_id": "GNP-44556677",
+      "emergency_contact_name": "Laura Mendoza (Madre)",
+      "emergency_contact_phone": "+52 55 9876 5432",
+      "comments": "Presenta dolor precordial atípico en estudio. Holter pendiente.",
+      "completed_sessions_count": 2,
+      "completed_calls_count": 0,
+      "completed_documents_count": 1,
+      "completed_questionnaires_count": 0,
+      "last_session_completed_at": "2026-11-01T16:15:00.000Z",
+      "created_at": "2026-10-20T11:30:00.000Z",
+      "items": [
+        {
+          "id": "med-b2c3d4e5-f6a1-4b2c-9d3e-4f5a6b7c8d9e",
+          "uuid": "med-b2c3d4e5-f6a1-4b2c-9d3e-4f5a6b7c8d9e",
+          "name": "metoclopramida",
+          "dosage": "10mg",
+          "presentation": "10mg",
+          "frequency": "c/12h",
+          "instructions": "10 mg • Tomar cada 12 horas",
+          "status": "ongoing",
+          "stopped_at": null
+        }
+      ]
+    },
+    {
+      "uuid": "c3d4e5f6-a1b2-4c3d-8e4f-5a6b7c8d9e0f",
+      "id": "c3d4e5f6-a1b2-4c3d-8e4f-5a6b7c8d9e0f",
+      "first_name": "Alejandro",
+      "last_name": "Martínez Silva",
+      "full_name": "Alejandro Martínez Silva",
+      "name": "Alejandro Martínez Silva",
+      "dob": "1979-11-20",
+      "gender": "male",
+      "phone": "+52 55 5432 1098",
+      "mobile_number": "+52 55 5432 1098",
+      "email": "alejandro.martinez@example.com",
+      "location": "Consultorio 2",
+      "tags": [
+        "Cardiología",
+        "Control"
+      ],
+      "coverage_name": "MetLife",
+      "coverage_member_id": "ML-998214",
+      "emergency_contact_name": "Sofía Martínez",
+      "emergency_contact_phone": "+52 55 5432 1099",
+      "comments": "Monitoreo de arritmia y control de presión arterial.",
+      "civil_status": "married",
+      "occupation": "Arquitecto",
+      "religion": "Católico",
+      "weight": "82",
+      "height": "178",
+      "blood_type": "A+",
+      "bmi": "25.9",
+      "completed_sessions_count": 1,
+      "completed_calls_count": 0,
+      "completed_documents_count": 0,
+      "completed_questionnaires_count": 0,
+      "created_at": "2026-10-15T10:00:00.000Z",
+      "items": [
+        {
+          "id": "med-c3d4e5f6-a1b2-4c3d-8e4f-5a6b7c8d9e0f",
+          "uuid": "med-c3d4e5f6-a1b2-4c3d-8e4f-5a6b7c8d9e0f",
+          "name": "metoclopramida",
+          "dosage": "10mg",
+          "presentation": "10mg",
+          "frequency": "c/12h",
+          "instructions": "10 mg • Tomar cada 12 horas",
+          "status": "ongoing",
+          "stopped_at": null
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "uuid": "sess-1793820132332-i3p2au",
+      "id": "sess-1793820132332-i3p2au",
+      "title": "Control y seguimiento gastrointestinal",
+      "gen_title": "Control y seguimiento gastrointestinal",
+      "status": "finalized",
+      "recording_status": "completed",
+      "started_at": "2026-11-04T19:22:12.332Z",
+      "created_at": "2026-11-04T19:22:12.332Z",
+      "mode": "recording",
+      "recording_origin": null,
+      "recording_profile": "full",
+      "mobile_app_recording_id": null,
+      "patient_id": "p-1793810465830",
+      "patient": {
+        "uuid": "p-1793810465830",
+        "id": "p-1793810465830",
+        "first_name": "alfonso",
+        "last_name": "salu",
+        "full_name": "alfonso salu",
+        "name": "alfonso salu",
+        "dob": "1985-01-01",
+        "gender": "male",
+        "phone": "",
+        "mobile_number": "",
+        "email": "",
+        "national_id": "",
+        "age": "56",
+        "location": "Consultorio",
+        "tags": [],
+        "coverage_name": "Particular",
+        "coverage_member_id": "",
+        "emergency_contact_name": "",
+        "emergency_contact_phone": "",
+        "comments": "",
+        "civil_status": "",
+        "occupation": "",
+        "religion": "",
+        "weight": "",
+        "height": "",
+        "blood_type": "",
+        "bmi": "",
+        "completed_sessions_count": 0,
+        "completed_calls_count": 0,
+        "completed_documents_count": 0,
+        "completed_questionnaires_count": 0,
+        "created_at": "2026-11-04T16:41:05.831Z",
+        "items": [
+          {
+            "name": "metoclopramida",
+            "dosage": "10mg",
+            "instructions": "c/12h",
+            "stopped_at": null
+          }
+        ],
+        "source_type": null,
+        "source_uuid": null
+      },
+      "calendar_event_uuid": null,
+      "received_partials_count": 2,
+      "doctor_notes": [
+        {
+          "uuid": "note-1793827851102-0",
+          "id": "note-1793827851102-0",
+          "note_type_slug": "general_soap",
+          "default_title": "Control y seguimiento gastrointestinal",
+          "gen_title": "Control y seguimiento gastrointestinal",
+          "gen_body": "# Resumen\nRefiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.\n\n# Subjetivo\n### Quejas\n* Molestia y dolor en la boca del estómago después de comer, especialmente al consumir chile.\n* Ardor y náuseas después de comer, más frecuentes por la noche.\n* Distensión e inflamación ocasionales.\n* Sensación ocasional de ahogo y vómitos asociados a la molestia.\n\n### Historia de la enfermedad actual\nRefiere molestias en la boca del estómago generalmente después de comer y más por la noche, que se intensifican con alimentos picantes o copiosos. Presenta sensación de plenitud precoz, náuseas y episodios de regurgitación ácida. No refiere disfagia ni pérdida ponderal.\n\n### Medicamentos y Alergias\n* **Medicamentos**: Metoclopramida 10mg según necesidad.\n* **Alergias**: Negadas explícitamente (NKDA).\n\n# Objetivo\n### Signos vitales\n* Presión arterial: 120/80 mmHg\n* Frecuencia cardíaca: 74 lpm\n* Frecuencia respiratoria: 16 rpm\n* Temperatura: 36.6 °C\n* Saturación O2: 98%\n\n### Examen físico\n* Abdomen blando y depresible, dolor a la palpación en epigastrio y mesogastrio. Ruidos hidroaéreos presentes, sin datos de peritonismo ni visceromegalias.\n\n# Análisis\n* Dispepsia funcional / Gastritis aguda por irritantes alimentarios. A descartar Enfermedad por Reflujo Gastroesofágico (ERGE).\n\n# Plan\n* **Metoclopramida**: 10mg vía oral cada 12 horas, 15 minutos antes de los alimentos por 5 días en caso de náuseas.\n* **Omeprazol**: 20mg vía oral cada 24 horas en ayunas durante 14 días.\n* **Recomendaciones higiénico-dietéticas**: Evitar irritantes, picante, grasas, café y acostarse en las dos horas posteriores a la comida.\n* **Signos de alarma**: Explicados ampliamente. Revaloración en 14 días.",
+          "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+          "gen_tags": [
+            "Medicina General",
+            "Consulta Externa"
+          ],
+          "gen_medications": [
+            {
+              "name": "metoclopramida",
+              "dosage": "10mg",
+              "instructions": "c/12h",
+              "stopped_at": null
+            }
+          ],
+          "gen_inconsistencies": [],
+          "completed": true,
+          "created_at": "2026-11-04T19:22:12.332Z",
+          "completed_at": "2026-11-04T19:23:14.729Z"
+        }
+      ],
+      "notes": [
+        {
+          "uuid": "note-1793827851102-0",
+          "id": "note-1793827851102-0",
+          "note_type_slug": "general_soap",
+          "default_title": "Control y seguimiento gastrointestinal",
+          "gen_title": "Control y seguimiento gastrointestinal",
+          "gen_body": "# Resumen\nRefiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.\n\n# Subjetivo\n### Quejas\n* Molestia y dolor en la boca del estómago después de comer, especialmente al consumir chile.\n* Ardor y náuseas después de comer, más frecuentes por la noche.\n* Distensión e inflamación ocasionales.\n* Sensación ocasional de ahogo y vómitos asociados a la molestia.\n\n### Historia de la enfermedad actual\nRefiere molestias en la boca del estómago generalmente después de comer y más por la noche, que se intensifican con alimentos picantes o copiosos. Presenta sensación de plenitud precoz, náuseas y episodios de regurgitación ácida. No refiere disfagia ni pérdida ponderal.\n\n### Medicamentos y Alergias\n* **Medicamentos**: Metoclopramida 10mg según necesidad.\n* **Alergias**: Negadas explícitamente (NKDA).\n\n# Objetivo\n### Signos vitales\n* Presión arterial: 120/80 mmHg\n* Frecuencia cardíaca: 74 lpm\n* Frecuencia respiratoria: 16 rpm\n* Temperatura: 36.6 °C\n* Saturación O2: 98%\n\n### Examen físico\n* Abdomen blando y depresible, dolor a la palpación en epigastrio y mesogastrio. Ruidos hidroaéreos presentes, sin datos de peritonismo ni visceromegalias.\n\n# Análisis\n* Dispepsia funcional / Gastritis aguda por irritantes alimentarios. A descartar Enfermedad por Reflujo Gastroesofágico (ERGE).\n\n# Plan\n* **Metoclopramida**: 10mg vía oral cada 12 horas, 15 minutos antes de los alimentos por 5 días en caso de náuseas.\n* **Omeprazol**: 20mg vía oral cada 24 horas en ayunas durante 14 días.\n* **Recomendaciones higiénico-dietéticas**: Evitar irritantes, picante, grasas, café y acostarse en las dos horas posteriores a la comida.\n* **Signos de alarma**: Explicados ampliamente. Revaloración en 14 días.",
+          "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+          "gen_tags": [
+            "Medicina General",
+            "Consulta Externa"
+          ],
+          "gen_medications": [
+            {
+              "name": "metoclopramida",
+              "dosage": "10mg",
+              "instructions": "c/12h",
+              "stopped_at": null
+            }
+          ],
+          "gen_inconsistencies": [],
+          "completed": true,
+          "created_at": "2026-11-04T19:22:12.332Z",
+          "completed_at": "2026-11-04T19:23:14.729Z"
+        }
+      ],
+      "audio_chunks": [
+        {
+          "index": 0,
+          "size": 482196,
+          "path": "recordings\\sess-1793820132332-i3p2au\\0.audio"
+        },
+        {
+          "index": 1,
+          "size": 64737,
+          "path": "recordings\\sess-1793820132332-i3p2au\\1.audio"
+        }
+      ],
+      "completed_at": "2026-11-04T19:23:14.729Z",
+      "reported_partials_count": 2,
+      "user_notes": "",
+      "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+      "ai_status": "generated",
+      "clinical_tags": [
+        "Medicina General",
+        "Consulta Externa"
+      ],
+      "patient_instruction_notes": [
+        {
+          "uuid": "pin-1793827851102-0",
+          "id": "pin-1793827851102-0",
+          "note_type_slug": "patient_instructions",
+          "default_title": "Instrucciones para paciente",
+          "gen_title": "Instrucciones para paciente",
+          "gen_body": "# Instrucciones para el Paciente\n\n### Estimado(a) paciente:\nUsted acudió a consulta para una valoración médica inicial debido a molestias digestivas que ha estado experimentando recientemente. Durante la sesión, tuvo la oportunidad de describir a detalle las características del malestar y los momentos en los que se presenta.\n\n### Hallazgos\nDurante la conversación se recopilaron los siguientes síntomas:\n* Dolor y sensación de ardor en la boca del estómago, los cuales se desencadenan o intensifican al comer chile.\n* Náuseas y episodios de vómito provocados por la intensidad del malestar.\n* Sensación de inflamación o distensión abdominal.\n* Episodios en los que percibe una sensación de ahogo.\n* Mayor frecuencia e intensidad de estos síntomas después de las comidas y durante la noche.\n\n### Plan de Tratamiento y Recomendaciones\n1. **Medicación**:\n   - **Metoclopramida 10mg**: Tomar 1 tableta cada 12 horas (15 minutos antes del alimento) en caso de náusea o plenitud marcada.\n   - **Omeprazol 20mg**: Tomar 1 cápsula en ayuno por las mañanas por 14 días.\n2. **Recomendaciones de alimentación y estilo de vida**:\n   - Evitar alimentos irritantes (chile, salsa, vinagres, cítricos) y alimentos muy grasosos o fritos.\n   - Realizar comidas en porciones moderadas sin prisa.\n   - Cenar al menos 2 horas antes de ir a dormir.\n3. **Criterios de alarma**:\n   - Si presenta vómitos persistentes que impidan la vía oral, dolor abdominal incapacitante o evacuaciones oscuras/negras, debe presentarse inmediatamente a valoración de urgencias.",
+          "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+          "completed": true,
+          "created_at": "2026-11-04T19:22:12.332Z",
+          "completed_at": "2026-11-04T19:23:14.729Z"
+        }
+      ],
+      "clinical_metadata": {
+        "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+        "gen_allergy_list": [],
+        "gen_risk_flags": [],
+        "gen_tracked_measures": [
+          {
+            "label": "Presión arterial",
+            "value": "120/80 mmHg",
+            "date": "2026-11-04"
+          },
+          {
+            "label": "Frecuencia cardíaca",
+            "value": "74 lpm",
+            "date": "2026-11-04"
+          }
+        ],
+        "gen_problem_list": [
+          {
+            "label": "Control y seguimiento gastrointestinal",
+            "date": "2026-11-04",
+            "status": "active",
+            "details": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo."
+          }
+        ],
+        "gen_suspected_condition_list": [],
+        "gen_medications": [
+          {
+            "name": "metoclopramida",
+            "dosage": "10mg",
+            "instructions": "c/12h",
+            "stopped_at": null
+          }
+        ],
+        "gen_interventions": [
+          {
+            "label": "Plan alimentario bajo en irritantes y grasas",
+            "date": "2026-11-04"
+          }
+        ],
+        "gen_clinical_findings": [
+          {
+            "label": "Sensibilidad epigástrica a la palpación profunda",
+            "date": "2026-11-04"
+          }
+        ],
+        "gen_procedures": [],
+        "gen_history_updates": [],
+        "gen_investigation_results": [],
+        "gen_investigation_orders": [],
+        "gen_functional_status": [],
+        "gen_goals": []
+      }
+    },
+    {
+      "uuid": "sess-1793819939762-dalfgm",
+      "id": "sess-1793819939762-dalfgm",
+      "title": "Molestia epigástrica después de comer",
+      "gen_title": "Molestia epigástrica después de comer",
+      "status": "finalized",
+      "recording_status": "completed",
+      "started_at": "2026-11-04T19:18:59.762Z",
+      "created_at": "2026-11-04T19:18:59.762Z",
+      "mode": "recording",
+      "recording_origin": null,
+      "recording_profile": "full",
+      "mobile_app_recording_id": null,
+      "patient_id": "p-1793810465830",
+      "patient": {
+        "uuid": "p-1793810465830",
+        "id": "p-1793810465830",
+        "first_name": "alfonso",
+        "last_name": "salu",
+        "full_name": "alfonso salu",
+        "name": "alfonso salu",
+        "dob": "1985-01-01",
+        "gender": "male",
+        "phone": "",
+        "mobile_number": "",
+        "email": "",
+        "national_id": "",
+        "age": "56",
+        "location": "Consultorio",
+        "tags": [],
+        "coverage_name": "Particular",
+        "coverage_member_id": "",
+        "emergency_contact_name": "",
+        "emergency_contact_phone": "",
+        "comments": "",
+        "civil_status": "",
+        "occupation": "",
+        "religion": "",
+        "weight": "",
+        "height": "",
+        "blood_type": "",
+        "bmi": "",
+        "completed_sessions_count": 0,
+        "completed_calls_count": 0,
+        "completed_documents_count": 0,
+        "completed_questionnaires_count": 0,
+        "created_at": "2026-11-04T16:41:05.831Z",
+        "items": [
+          {
+            "name": "metoclopramida",
+            "dosage": "10mg",
+            "instructions": "c/12h",
+            "stopped_at": null
+          }
+        ],
+        "source_type": null,
+        "source_uuid": null
+      },
+      "calendar_event_uuid": null,
+      "received_partials_count": 2,
+      "doctor_notes": [
+        {
+          "uuid": "note-1793827851103-1",
+          "id": "note-1793827851103-1",
+          "note_type_slug": "general_soap",
+          "default_title": "Molestia epigástrica después de comer",
+          "gen_title": "Molestia epigástrica después de comer",
+          "gen_body": "# Resumen\nRefiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.\n\n# Subjetivo\n### Quejas\n* Molestia y dolor en la boca del estómago después de comer, especialmente al consumir chile.\n* Ardor y náuseas después de comer, más frecuentes por la noche.\n* Distensión e inflamación ocasionales.\n* Sensación ocasional de ahogo y vómitos asociados a la molestia.\n\n### Historia de la enfermedad actual\nRefiere molestias en la boca del estómago generalmente después de comer y más por la noche, que se intensifican con alimentos picantes o copiosos. Presenta sensación de plenitud precoz, náuseas y episodios de regurgitación ácida. No refiere disfagia ni pérdida ponderal.\n\n### Medicamentos y Alergias\n* **Medicamentos**: Metoclopramida 10mg según necesidad.\n* **Alergias**: Negadas explícitamente (NKDA).\n\n# Objetivo\n### Signos vitales\n* Presión arterial: 120/80 mmHg\n* Frecuencia cardíaca: 74 lpm\n* Frecuencia respiratoria: 16 rpm\n* Temperatura: 36.6 °C\n* Saturación O2: 98%\n\n### Examen físico\n* Abdomen blando y depresible, dolor a la palpación en epigastrio y mesogastrio. Ruidos hidroaéreos presentes, sin datos de peritonismo ni visceromegalias.\n\n# Análisis\n* Dispepsia funcional / Gastritis aguda por irritantes alimentarios. A descartar Enfermedad por Reflujo Gastroesofágico (ERGE).\n\n# Plan\n* **Metoclopramida**: 10mg vía oral cada 12 horas, 15 minutos antes de los alimentos por 5 días en caso de náuseas.\n* **Omeprazol**: 20mg vía oral cada 24 horas en ayunas durante 14 días.\n* **Recomendaciones higiénico-dietéticas**: Evitar irritantes, picante, grasas, café y acostarse en las dos horas posteriores a la comida.\n* **Signos de alarma**: Explicados ampliamente. Revaloración en 14 días.",
+          "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+          "gen_tags": [
+            "Medicina General",
+            "Consulta Externa"
+          ],
+          "gen_medications": [
+            {
+              "name": "metoclopramida",
+              "dosage": "10mg",
+              "instructions": "c/12h",
+              "stopped_at": null
+            }
+          ],
+          "gen_inconsistencies": [],
+          "completed": true,
+          "created_at": "2026-11-04T19:18:59.762Z",
+          "completed_at": "2026-11-04T19:19:39.234Z"
+        }
+      ],
+      "notes": [
+        {
+          "uuid": "note-1793827851103-1",
+          "id": "note-1793827851103-1",
+          "note_type_slug": "general_soap",
+          "default_title": "Molestia epigástrica después de comer",
+          "gen_title": "Molestia epigástrica después de comer",
+          "gen_body": "# Resumen\nRefiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.\n\n# Subjetivo\n### Quejas\n* Molestia y dolor en la boca del estómago después de comer, especialmente al consumir chile.\n* Ardor y náuseas después de comer, más frecuentes por la noche.\n* Distensión e inflamación ocasionales.\n* Sensación ocasional de ahogo y vómitos asociados a la molestia.\n\n### Historia de la enfermedad actual\nRefiere molestias en la boca del estómago generalmente después de comer y más por la noche, que se intensifican con alimentos picantes o copiosos. Presenta sensación de plenitud precoz, náuseas y episodios de regurgitación ácida. No refiere disfagia ni pérdida ponderal.\n\n### Medicamentos y Alergias\n* **Medicamentos**: Metoclopramida 10mg según necesidad.\n* **Alergias**: Negadas explícitamente (NKDA).\n\n# Objetivo\n### Signos vitales\n* Presión arterial: 120/80 mmHg\n* Frecuencia cardíaca: 74 lpm\n* Frecuencia respiratoria: 16 rpm\n* Temperatura: 36.6 °C\n* Saturación O2: 98%\n\n### Examen físico\n* Abdomen blando y depresible, dolor a la palpación en epigastrio y mesogastrio. Ruidos hidroaéreos presentes, sin datos de peritonismo ni visceromegalias.\n\n# Análisis\n* Dispepsia funcional / Gastritis aguda por irritantes alimentarios. A descartar Enfermedad por Reflujo Gastroesofágico (ERGE).\n\n# Plan\n* **Metoclopramida**: 10mg vía oral cada 12 horas, 15 minutos antes de los alimentos por 5 días en caso de náuseas.\n* **Omeprazol**: 20mg vía oral cada 24 horas en ayunas durante 14 días.\n* **Recomendaciones higiénico-dietéticas**: Evitar irritantes, picante, grasas, café y acostarse en las dos horas posteriores a la comida.\n* **Signos de alarma**: Explicados ampliamente. Revaloración en 14 días.",
+          "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+          "gen_tags": [
+            "Medicina General",
+            "Consulta Externa"
+          ],
+          "gen_medications": [
+            {
+              "name": "metoclopramida",
+              "dosage": "10mg",
+              "instructions": "c/12h",
+              "stopped_at": null
+            }
+          ],
+          "gen_inconsistencies": [],
+          "completed": true,
+          "created_at": "2026-11-04T19:18:59.762Z",
+          "completed_at": "2026-11-04T19:19:39.234Z"
+        }
+      ],
+      "audio_chunks": [
+        {
+          "index": 0,
+          "size": 482196,
+          "path": "recordings\\sess-1793819939762-dalfgm\\0.audio"
+        },
+        {
+          "index": 1,
+          "size": 124629,
+          "path": "recordings\\sess-1793819939762-dalfgm\\1.audio"
+        }
+      ],
+      "completed_at": "2026-11-04T19:19:39.234Z",
+      "reported_partials_count": 2,
+      "user_notes": "",
+      "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+      "ai_status": "generated",
+      "clinical_tags": [
+        "Medicina General",
+        "Consulta Externa"
+      ],
+      "patient_instruction_notes": [
+        {
+          "uuid": "pin-1793827851103-1",
+          "id": "pin-1793827851103-1",
+          "note_type_slug": "patient_instructions",
+          "default_title": "Instrucciones para paciente",
+          "gen_title": "Instrucciones para paciente",
+          "gen_body": "### Paciente\n* **Nombre:** alfonso salu\n\n### Descripción de la visita\nUsted acudió a consulta para una valoración médica inicial debido a molestias digestivas que ha estado experimentando recientemente. Durante la sesión, tuvo la oportunidad de describir a detalle las características del malestar y los momentos en los que se presenta.\n\n### Hallazgos\nDurante la conversación se recopilaron los siguientes síntomas:\n* Dolor y sensación de ardor en la boca del estómago, los cuales se desencadenan o intensifican al comer chile.\n* Náuseas y episodios de vómito provocados por la intensidad del malestar.\n* Sensación de inflamación o distensión abdominal.\n* Episodios en los que percibe una sensación de ahogo.\n* Mayor frecuencia e intensidad de estos síntomas después de las comidas y durante la noche.\n\n### Plan de Tratamiento y Recomendaciones\n1. **Medicación**:\n   - **Metoclopramida 10mg**: Tomar 1 tableta cada 12 horas en caso de náusea o plenitud marcada.\n   - **Omeprazol 20mg**: Tomar 1 cápsula en ayuno por las mañanas por 14 días.\n2. **Recomendaciones de alimentación y estilo de vida**:\n   - Evitar irritantes, picante, grasas y café.\n   - Cenar al menos 2 horas antes de dormir.\n3. **Criterios de alarma**:\n   - Si presenta vómitos continuos o dolor abdominal incapacitante, acudir de inmediato a urgencias.",
+          "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+          "completed": true,
+          "created_at": "2026-11-04T19:18:59.762Z",
+          "completed_at": "2026-11-04T19:19:39.234Z"
+        }
+      ],
+      "clinical_metadata": {
+        "gen_summary": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo.",
+        "gen_allergy_list": [],
+        "gen_risk_flags": [],
+        "gen_tracked_measures": [
+          {
+            "label": "Presión arterial",
+            "value": "120/80 mmHg",
+            "date": "2026-11-04"
+          },
+          {
+            "label": "Frecuencia cardíaca",
+            "value": "74 lpm",
+            "date": "2026-11-04"
+          }
+        ],
+        "gen_problem_list": [
+          {
+            "label": "Molestia epigástrica después de comer",
+            "date": "2026-11-04",
+            "status": "active",
+            "details": "Refiere dolor y ardor en la boca del estómago después de comer, especialmente con chile y por las noches. Describe náuseas, distensión ocasional, sensación de ahogo y vómitos asociados a la molestia. No se documentan evaluación ni decisiones de manejo."
+          }
+        ],
+        "gen_suspected_condition_list": [],
+        "gen_medications": [
+          {
+            "name": "metoclopramida",
+            "dosage": "10mg",
+            "instructions": "c/12h",
+            "stopped_at": null
+          }
+        ],
+        "gen_interventions": [
+          {
+            "label": "Plan alimentario bajo en irritantes y grasas",
+            "date": "2026-11-04"
+          }
+        ],
+        "gen_clinical_findings": [
+          {
+            "label": "Sensibilidad epigástrica a la palpación profunda",
+            "date": "2026-11-04"
+          }
+        ],
+        "gen_procedures": [],
+        "gen_history_updates": [],
+        "gen_investigation_results": [],
+        "gen_investigation_orders": [],
+        "gen_functional_status": [],
+        "gen_goals": []
+      }
+    },
+    {
+      "uuid": "sess-pedro-01",
+      "id": "sess-pedro-01",
+      "title": "Reunión Profesional",
+      "gen_title": "Reunión Profesional",
+      "created_at": "2026-11-03T10:00:00.000Z",
+      "patient_id": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "patient": {
+        "uuid": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+        "id": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+        "first_name": "pedro",
+        "last_name": "suarez",
+        "full_name": "pedro suarez",
+        "name": "pedro suarez",
+        "dob": "1988-05-12",
+        "gender": "male",
+        "phone": "+52 55 1234 5678",
+        "mobile_number": "+52 55 1234 5678",
+        "email": "pedro.suarez@ejemplo.com",
+        "age": "38",
+        "location": "Consultorio",
+        "coverage_name": "Particular",
+        "completed_sessions_count": 1,
+        "completed_documents_count": 1,
+        "created_at": "2026-11-03T10:00:00.000Z",
+        "items": [
+          {
+            "id": "med-1",
+            "uuid": "med-1",
+            "name": "metoclopramida",
+            "dosage": "10mg",
+            "presentation": "10mg",
+            "frequency": "c/12h",
+            "instructions": "10 mg • Tomar cada 12 horas",
+            "status": "ongoing",
+            "stopped_at": null
+          }
+        ]
+      },
+      "gen_summary": "Contexto: Se describe el uso de una aplicación para crear aplicaciones y la replicación de una funcionalidad en otra interfaz. Puntos clave tratados: ...",
+      "status": "finalized",
+      "clinical_tags": [
+        "Medicina General"
+      ]
+    },
+    {
+      "uuid": "sess-1793752491207",
+      "id": "sess-1793752491207",
+      "title": "Consulta clínica estructurada",
+      "gen_title": "Consulta clínica estructurada",
+      "gen_summary": "Nota generada con asistencia de IA; requiere revisión y aprobación del profesional.",
+      "status": "finalized",
+      "created_at": "2026-11-04T00:34:55.021Z",
+      "clinical_tags": [
+        "Medicina General",
+        "Consulta Externa"
+      ],
+      "patient_id": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+      "patient": {
+        "uuid": "p-1793752490741",
+        "id": "p-1793752490741",
+        "first_name": "Nuevo",
+        "last_name": "Paciente",
+        "full_name": "Nuevo Paciente",
+        "name": "Nuevo Paciente",
+        "dob": "1985-01-01",
+        "gender": "unspecified",
+        "phone": "",
+        "mobile_number": "",
+        "email": "",
+        "location": "Consultorio",
+        "tags": [
+          "Control"
+        ],
+        "coverage_name": "Particular",
+        "coverage_member_id": "",
+        "emergency_contact_name": "",
+        "emergency_contact_phone": "",
+        "comments": "",
+        "completed_sessions_count": 0,
+        "completed_calls_count": 0,
+        "completed_documents_count": 0,
+        "completed_questionnaires_count": 0,
+        "created_at": "2026-11-04T00:34:50.741Z"
+      },
+      "doctor_notes": [
+        {
+          "uuid": "note-1793752491207",
+          "note_type_slug": "soap",
+          "gen_title": "Nota SOAP - 3/11/2026",
+          "gen_body": "### Subjetivo (S)\n**Motivo de consulta:** Consulta médica general de rutina / evaluación clínica inicial.\n**Padecimiento actual:** Paciente acude a consulta para valoración médica general. Refiere [consignar síntomas actuales, por ejemplo: ausencia de sintomatología aguda, o bien, cefalea leve, fatiga, etc., según corresponda]. Sin otros datos de importancia al interrogatorio por aparatos y sistemas al momento de la evaluación.\n\n### Objetivo (O)\n*   **Signos vitales:**\n    *   Tensión Arterial (TA): [Ej. 120/80] mmHg.\n    *   Frecuencia Cardíaca (FC): [Ej. 72] lpm.\n    *   Frecuencia Respiratoria (FR): [Ej. 18] rpm.\n    *   Temperatura (T): [Ej. 36.5] °C.\n    *   Saturación de oxígeno ($SpO_2$): [Ej. 98]% a aire ambiente.\n    *   Antropometría: Peso: [Ej. 70] kg, Talla: [Ej. 1.70] m, IMC: [Ej. 24.2] $kg/m^2$.\n*   **Exploración física:**\n    *   *Inspección general:* Consciente, alerta, orientada en las tres esferas, sin datos de dificultad respiratoria, hidratada y con buenaColoración tegumentaria.\n    *   *Cabeza y cuello:* Normocéfala, sin exostosis ni depresiones. Pupilas simétricas y normorreactivas a la luz. Orofaringe sin hiperemia ni exudados. Cuello cilíndrico, sin adenomegalias palpables ni ingurgitación yugular.\n    *   *Tórax:* Simétrico, excursión respiratoria conservada. Campos pulmonares con murmullo vesicular presente, sin estertores, sibilancias ni soplos agregados. Ruidos cardíacos rítmicos, de buena intensidad, sin soplos.\n    *   *Abdomen:* Blando, depresible, no doloroso a la palpación superficial ni profunda. Sin megalias (hepatomegalia o esplenomegalia). peristalsis presente y normoactiva.\n    *   *Extremidades:* Simétricas, sin edema, con fuerza y sensibilidad conservadas. Pulsos periféricos presentes y sincrónicos.\n\n### Análisis (A)\n1. Paciente adulto en aparente buen estado de salud general, sin datos de alarma clínicos agudos al momento de la valoración.\n2. Signos vitales dentro de parámetros normales.\n3. Se emite impresión diagnóstica de: \n   * [Ej. Paciente sano / Control médico periódico (CIE-10: Z00.0)] \n   * [Añadir diagnóstico específico en caso de patología identificada].\n\n### Plan (P)\n1.  **Medidas generales y estilo de vida:**\n    *   Dieta equilibrada, baja en grasas saturadas y azúcares refinados.\n    *   Hidratación adecuada (mínimo 1.5 a 2 litros de agua al día).\n    *   Realización de actividad física aeróbica moderada (mínimo 150 minutos a la semana).\n2.  **Estudios paraclínicos de control (si aplica):**\n    *   [Ej. Biometría hemática, química sanguínea de 6 elementos, ego (opcional para perfil preventivo).]\n3.  **Farmacoterapia:**\n    *   [Ej. No amerita manejo farmacológico actual.] / [En caso de requerir: Fármaco, dosis, vía de administración, frecuencia y duración.]\n4.  **Signos de alarma:**\n    *   Se instruye al paciente para acudir a urgencias en caso de presentar fiebre de difícil control, dificultad respiratoria, dolor torácico, mareo intenso o alteración del estado de conciencia.\n5.  **Seguimiento:**\n    *   Cita abierta en caso de agudización de síntomas o control médico programado en [Ej. 6 meses / 1 año] con resultados de laboratorio.",
+          "gen_summary": "Nota generada con asistencia de IA; requiere revisión y aprobación del profesional.",
+          "gen_tags": [
+            "Consulta Externa",
+            "Medicina General"
+          ],
+          "gen_medications": [],
+          "completed": true
+        }
+      ],
+      "ai_status": "generated",
+      "requires_professional_review": true,
+      "notes": [
+        {
+          "uuid": "note-1793752491207",
+          "note_type_slug": "soap",
+          "gen_title": "Nota SOAP - 3/11/2026",
+          "gen_body": "### Subjetivo (S)\n**Motivo de consulta:** Consulta médica general de rutina / evaluación clínica inicial.\n**Padecimiento actual:** Paciente acude a consulta para valoración médica general. Refiere [consignar síntomas actuales, por ejemplo: ausencia de sintomatología aguda, o bien, cefalea leve, fatiga, etc., según corresponda]. Sin otros datos de importancia al interrogatorio por aparatos y sistemas al momento de la evaluación.\n\n### Objetivo (O)\n*   **Signos vitales:**\n    *   Tensión Arterial (TA): [Ej. 120/80] mmHg.\n    *   Frecuencia Cardíaca (FC): [Ej. 72] lpm.\n    *   Frecuencia Respiratoria (FR): [Ej. 18] rpm.\n    *   Temperatura (T): [Ej. 36.5] °C.\n    *   Saturación de oxígeno ($SpO_2$): [Ej. 98]% a aire ambiente.\n    *   Antropometría: Peso: [Ej. 70] kg, Talla: [Ej. 1.70] m, IMC: [Ej. 24.2] $kg/m^2$.\n*   **Exploración física:**\n    *   *Inspección general:* Consciente, alerta, orientada en las tres esferas, sin datos de dificultad respiratoria, hidratada y con buenaColoración tegumentaria.\n    *   *Cabeza y cuello:* Normocéfala, sin exostosis ni depresiones. Pupilas simétricas y normorreactivas a la luz. Orofaringe sin hiperemia ni exudados. Cuello cilíndrico, sin adenomegalias palpables ni ingurgitación yugular.\n    *   *Tórax:* Simétrico, excursión respiratoria conservada. Campos pulmonares con murmullo vesicular presente, sin estertores, sibilancias ni soplos agregados. Ruidos cardíacos rítmicos, de buena intensidad, sin soplos.\n    *   *Abdomen:* Blando, depresible, no doloroso a la palpación superficial ni profunda. Sin megalias (hepatomegalia o esplenomegalia). peristalsis presente y normoactiva.\n    *   *Extremidades:* Simétricas, sin edema, con fuerza y sensibilidad conservadas. Pulsos periféricos presentes y sincrónicos.\n\n### Análisis (A)\n1. Paciente adulto en aparente buen estado de salud general, sin datos de alarma clínicos agudos al momento de la valoración.\n2. Signos vitales dentro de parámetros normales.\n3. Se emite impresión diagnóstica de: \n   * [Ej. Paciente sano / Control médico periódico (CIE-10: Z00.0)] \n   * [Añadir diagnóstico específico en caso de patología identificada].\n\n### Plan (P)\n1.  **Medidas generales y estilo de vida:**\n    *   Dieta equilibrada, baja en grasas saturadas y azúcares refinados.\n    *   Hidratación adecuada (mínimo 1.5 a 2 litros de agua al día).\n    *   Realización de actividad física aeróbica moderada (mínimo 150 minutos a la semana).\n2.  **Estudios paraclínicos de control (si aplica):**\n    *   [Ej. Biometría hemática, química sanguínea de 6 elementos, ego (opcional para perfil preventivo).]\n3.  **Farmacoterapia:**\n    *   [Ej. No amerita manejo farmacológico actual.] / [En caso de requerir: Fármaco, dosis, vía de administración, frecuencia y duración.]\n4.  **Signos de alarma:**\n    *   Se instruye al paciente para acudir a urgencias en caso de presentar fiebre de difícil control, dificultad respiratoria, dolor torácico, mareo intenso o alteración del estado de conciencia.\n5.  **Seguimiento:**\n    *   Cita abierta en caso de agudización de síntomas o control médico programado en [Ej. 6 meses / 1 año] con resultados de laboratorio.",
+          "gen_summary": "Nota generada con asistencia de IA; requiere revisión y aprobación del profesional.",
+          "gen_tags": [
+            "Consulta Externa",
+            "Medicina General"
+          ],
+          "gen_medications": [],
+          "completed": true
+        }
+      ]
+    },
+    {
+      "uuid": "sess-1793752394421",
+      "id": "sess-1793752394421",
+      "title": "Consulta clínica estructurada",
+      "gen_title": "Consulta clínica estructurada",
+      "gen_summary": "Nota generada con asistencia de IA; requiere revisión y aprobación del profesional.",
+      "status": "finalized",
+      "created_at": "2026-11-04T00:33:18.428Z",
+      "clinical_tags": [
+        "Medicina General",
+        "Consulta Externa"
+      ],
+      "patient_id": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+      "patient": {
+        "uuid": "p-1793752391243",
+        "id": "p-1793752391243",
+        "first_name": "Nuevo",
+        "last_name": "Paciente",
+        "full_name": "Nuevo Paciente",
+        "name": "Nuevo Paciente",
+        "dob": "1985-01-01",
+        "gender": "unspecified",
+        "phone": "",
+        "mobile_number": "",
+        "email": "",
+        "location": "Consultorio",
+        "tags": [
+          "Control"
+        ],
+        "coverage_name": "Particular",
+        "coverage_member_id": "",
+        "emergency_contact_name": "",
+        "emergency_contact_phone": "",
+        "comments": "",
+        "completed_sessions_count": 0,
+        "completed_calls_count": 0,
+        "completed_documents_count": 0,
+        "completed_questionnaires_count": 0,
+        "created_at": "2026-11-04T00:33:11.243Z"
+      },
+      "doctor_notes": [
+        {
+          "uuid": "note-1793752394421",
+          "note_type_slug": "soap",
+          "gen_title": "Nota SOAP - 3/11/2026",
+          "gen_body": "### Subjetivo (S)\n**Motivo de consulta:** Consulta médica general de rutina / evaluación clínica inicial.\n**Padecimiento actual:** Paciente acude a consulta médica general para valoración integral. A la anamnesis dirigida, refiere encontrarse asintomático al momento de la valoración, niega algias agudas, fiebre, tos, disnea, alteraciones gastrointestinales o urinarias recientes. Refiere hábitos higiénico-dietéticos habituales y estado general conservado.\n**Antecedentes personales:** Negados o sin importancia médico-quirúrgica relevante para el padecimiento actual (según expediente).\n\n### Objetivo (O)\n**Signos vitales y antropometría:**\n*   Tensión arterial (TA): 120/80 mmHg\n*   Frecuencia cardíaca (FC): 72 lpm\n*   Frecuencia respiratoria (FR): 18 rpm\n*   Temperatura: 36.5 °C\n*   Saturación de oxígeno ($SpO_2$): 98% a aire ambiente\n*   Peso / Talla / IMC: (Pendiente de registrar en báscula / Valores dentro de rangos normales estandarizados).\n\n**Exploración física:**\n*   **Inspección general:** Paciente consciente, alerta, orientado en sus tres esferas (tiempo, lugar y persona), normoecivélico, sin facies de dolor ni dificultad respiratoria. Hidratación y coloración detegumentos conservadas.\n*   **Cabeza y cuello:** Pupilas isocóricas y normorreactivas a la luz. Mucosas orales hidratadas. Cuello cilíndrico, móvil, sin adenopatías palpables, sin tiroimegalia, sin ingurgitación yugular.\n*   **Tórax:** Simétrico, excursión respiratoria conservada. Murmullo vesicular presente en ambos campos pulmonares, sin estertores, sibilancias ni estertores crepitantes. Ruidos cardíacos rítmicos, de buena intensidad, sin soplos ni ruidos agregados.\n*   **Abdomen:** Blando, depresible, no doloroso a la palpación superficial ni profunda. No se palpan visceromegalias. Peristalsis presente y normoaudible.\n*   **Extremidades:** Simétricas, sin edema, pulsos periféricos presentes y simétricos, llenado capilar menor a 2 segundos.\n*   **Neurológico:** Funciones superiores integras, pares craneales sin alteraciones aparentes, reflejos osteotendinosos conservados.\n\n### Análisis (A)\n*   **Impresión diagnóstica:** \n    1. Paciente sano / Evaluación médica de rutina sin alteraciones agudas evidentes (CIE-10: Z00.0 - Examen médico general).\n*   **Evolución:** Estable, sin datos de alarma clínicos que sugieran patología aguda en este momento.\n\n### Plan (P)\n1.  **Recomendaciones generales:**\n    *   Mantener hábitos de vida saludables: dieta balanceada rica en frutas, verduras y baja en grasas saturadas.\n    *   Hidratación adecuada (mínimo 1.5 a 2 litros de agua simple al día).\n    *   Realizar actividad física aeróbica moderada (al menos 30 minutos diarios, 5 días a la semana).\n    *   Higiene de sueño adecuada (7-8 horas nocturnas).\n2.  **Farmacoterapia:**\n    *   *No se prescriben fármacos en este momento al encontrarse el paciente asintomático y sin patología aguda diagnosticada.*\n3.  **Estudios de laboratorio / gabinete:**\n    *   Se sugieren estudios de control anuales (Biometría hemática, química sanguínea de  elementos, perfil de lípidos y ego) según criterio médico preventivo.\n4.  **Signos de alarma:**\n    *   Acudir a urgencias en caso de presentar: fiebre de difícil control, dificultad para respirar, dolor torácico súbito, mareo intenso, pérdida del estado de conciencia o cualquier síntoma agudo.\n5.  **Seguimiento:**\n    *   Cita abierta a evolución o control en 6-12 meses, o antes en caso de aparición de sintomatología.",
+          "gen_summary": "Nota generada con asistencia de IA; requiere revisión y aprobación del profesional.",
+          "gen_tags": [
+            "Consulta Externa",
+            "Medicina General"
+          ],
+          "gen_medications": [],
+          "completed": true
+        }
+      ],
+      "ai_status": "generated",
+      "requires_professional_review": true,
+      "notes": [
+        {
+          "uuid": "note-1793752394421",
+          "note_type_slug": "soap",
+          "gen_title": "Nota SOAP - 3/11/2026",
+          "gen_body": "### Subjetivo (S)\n**Motivo de consulta:** Consulta médica general de rutina / evaluación clínica inicial.\n**Padecimiento actual:** Paciente acude a consulta médica general para valoración integral. A la anamnesis dirigida, refiere encontrarse asintomático al momento de la valoración, niega algias agudas, fiebre, tos, disnea, alteraciones gastrointestinales o urinarias recientes. Refiere hábitos higiénico-dietéticos habituales y estado general conservado.\n**Antecedentes personales:** Negados o sin importancia médico-quirúrgica relevante para el padecimiento actual (según expediente).\n\n### Objetivo (O)\n**Signos vitales y antropometría:**\n*   Tensión arterial (TA): 120/80 mmHg\n*   Frecuencia cardíaca (FC): 72 lpm\n*   Frecuencia respiratoria (FR): 18 rpm\n*   Temperatura: 36.5 °C\n*   Saturación de oxígeno ($SpO_2$): 98% a aire ambiente\n*   Peso / Talla / IMC: (Pendiente de registrar en báscula / Valores dentro de rangos normales estandarizados).\n\n**Exploración física:**\n*   **Inspección general:** Paciente consciente, alerta, orientado en sus tres esferas (tiempo, lugar y persona), normoecivélico, sin facies de dolor ni dificultad respiratoria. Hidratación y coloración detegumentos conservadas.\n*   **Cabeza y cuello:** Pupilas isocóricas y normorreactivas a la luz. Mucosas orales hidratadas. Cuello cilíndrico, móvil, sin adenopatías palpables, sin tiroimegalia, sin ingurgitación yugular.\n*   **Tórax:** Simétrico, excursión respiratoria conservada. Murmullo vesicular presente en ambos campos pulmonares, sin estertores, sibilancias ni estertores crepitantes. Ruidos cardíacos rítmicos, de buena intensidad, sin soplos ni ruidos agregados.\n*   **Abdomen:** Blando, depresible, no doloroso a la palpación superficial ni profunda. No se palpan visceromegalias. Peristalsis presente y normoaudible.\n*   **Extremidades:** Simétricas, sin edema, pulsos periféricos presentes y simétricos, llenado capilar menor a 2 segundos.\n*   **Neurológico:** Funciones superiores integras, pares craneales sin alteraciones aparentes, reflejos osteotendinosos conservados.\n\n### Análisis (A)\n*   **Impresión diagnóstica:** \n    1. Paciente sano / Evaluación médica de rutina sin alteraciones agudas evidentes (CIE-10: Z00.0 - Examen médico general).\n*   **Evolución:** Estable, sin datos de alarma clínicos que sugieran patología aguda en este momento.\n\n### Plan (P)\n1.  **Recomendaciones generales:**\n    *   Mantener hábitos de vida saludables: dieta balanceada rica en frutas, verduras y baja en grasas saturadas.\n    *   Hidratación adecuada (mínimo 1.5 a 2 litros de agua simple al día).\n    *   Realizar actividad física aeróbica moderada (al menos 30 minutos diarios, 5 días a la semana).\n    *   Higiene de sueño adecuada (7-8 horas nocturnas).\n2.  **Farmacoterapia:**\n    *   *No se prescriben fármacos en este momento al encontrarse el paciente asintomático y sin patología aguda diagnosticada.*\n3.  **Estudios de laboratorio / gabinete:**\n    *   Se sugieren estudios de control anuales (Biometría hemática, química sanguínea de  elementos, perfil de lípidos y ego) según criterio médico preventivo.\n4.  **Signos de alarma:**\n    *   Acudir a urgencias en caso de presentar: fiebre de difícil control, dificultad para respirar, dolor torácico súbito, mareo intenso, pérdida del estado de conciencia o cualquier síntoma agudo.\n5.  **Seguimiento:**\n    *   Cita abierta a evolución o control en 6-12 meses, o antes en caso de aparición de sintomatología.",
+          "gen_summary": "Nota generada con asistencia de IA; requiere revisión y aprobación del profesional.",
+          "gen_tags": [
+            "Consulta Externa",
+            "Medicina General"
+          ],
+          "gen_medications": [],
+          "completed": true
+        }
+      ]
+    },
+    {
+      "uuid": "sess-1793743210734",
+      "id": "sess-1793743210734",
+      "title": "Consulta subsecuente: Migraña episódica",
+      "gen_title": "Consulta subsecuente: Migraña episódica",
+      "gen_summary": "Consulta documentada con asistencia de IA. Plan terapéutico establecido.",
+      "status": "finalized",
+      "created_at": "2026-11-03T22:00:13.865Z",
+      "clinical_tags": [
+        "Medicina General",
+        "Consulta Externa"
+      ],
+      "patient_id": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+      "patient": {
+        "uuid": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+        "id": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+        "full_name": "María González López",
+        "first_name": "María",
+        "last_name": "González López",
+        "gender": "female",
+        "email": "maria.gonzalez@ejemplo.com",
+        "mobile_number": "+52 55 1234 5678",
+        "dob": "1978-04-15",
+        "location": "Ciudad de México",
+        "tags": [
+          "Hipertensión",
+          "Diabetes Tipo 2",
+          "Control"
+        ],
+        "coverage_name": "IMSS / Particular",
+        "coverage_member_id": "IMSS-9876543210",
+        "emergency_contact_name": "Roberto González (Esposo)",
+        "emergency_contact_phone": "+52 55 8765 4321",
+        "comments": "Paciente en seguimiento estrecho de metas metabólicas y tensionales.",
+        "completed_sessions_count": 3,
+        "completed_calls_count": 1,
+        "completed_documents_count": 2,
+        "completed_questionnaires_count": 1,
+        "last_session_completed_at": "2026-11-02T10:30:00.000Z",
+        "created_at": "2026-10-15T09:00:00.000Z"
+      },
+      "notes": [
+        {
+          "uuid": "note-1793743210734",
+          "note_type_slug": "soap",
+          "gen_title": "Nota SOAP - 3/11/2026",
+          "gen_body": "### Subjetivo (S)\nPaciente femenina de 30 años de edad, quien acude a consulta para seguimiento y manejo de cefalea. Refiere cuadro clínico caracterizado por episodios recurrentes de dolor de cabeza que cumplen con criterios de migraña, con una frecuencia de 4 crisis al mes. La paciente percibe la frecuencia y la intensidad de los episodios como limitantes para sus actividades diarias, por lo que solicita valoración y tratamiento preventivo.\n\n### Objetivo (O)\n*   **Signos Vitales:** Presión arterial, frecuencia cardíaca, frecuencia respiratoria y temperatura dentro de parámetros normales (no especificados o pendientes de registro en la consulta actual).\n*   **Examen Físico General:** Paciente alerta, orientada en las tres esferas, sin datos de sufrimiento agudo.\n*   **Examen Neurológico:** Pares craneales íntegros, sin deficits motores ni sensitivos focales. Reflejos osteotendinosos simétricos y normoactivos. Fondo de ojo sin alteraciones aparentes (si fue realizado). Signos meníngeos negativos.\n\n### Análisis (A)\n1.  **Cefalea migrañosa episódica frecuente:** 4 crisis al mes, lo cual constituye una indicación formal para el inicio de tratamiento farmacológico profiláctico con el fin de reducir la frecuencia, intensidad y duración de las crisis, así como prevenir la discapacidad asociada y el uso excesivo de medicación aguda.\n2.  **Inicio de profilaxis:** Se selecciona topiramato como fármaco de primera línea, considerando el perfil de la paciente.\n\n### Plan (P)\n1.  **Farmacoterapia (Profilaxis):**\n    *   **Topiramato:** Iniciar con dosis baja para minimizar efectos secundarios cognitivos y sistémicos.\n        *   *Esquema sugerido:* 25 mg vía oral cada 24 horas por las noches durante la primera semana. Posteriormente, incrementar a 25 mg cada 12 horas (50 mg/día) a partir de la segunda semana, según tolerancia.\n2.  **Manejo de crisis agudas:**\n    *   Continuar con tratamiento abortivo de rescate previamente indicado (AINEs o triptanos, según indicación médica individualizada), recordando limitar su uso a un máximo de 2 días por semana para evitar cefalea por abuso de medicación.\n3.  **Recomendaciones no farmacológicas y estilo de vida:**\n    *   Mantener una hidratación adecuada y evitar ayunos prolongados.\n    *   Identificar y evitar desencadenantes conocidos (estrés, ciertos alimentos, alteraciones del sueño).\n    *   Llevar un **diario de cefalea** detallando fecha, intensidad, duración, posibles desencadenantes y medicamentos de rescate utilizados.\n    *   Advertir sobre posibles efectos secundarios iniciales del topiramato (parestesias, somnolencia, alteraciones del gusto, pérdida de peso leve) y suspender o consultar en caso de reacciones adversas severas o síntomas visuales agudos (glaucoma de ángulo cerrado secundario).\n4.  **Seguimiento:**\n    *   Cita de control en 4 a 6 semanas para evaluar tolerancia, adherencia y eficacia preliminar del tratamiento profiláctico.",
+          "gen_summary": "Consulta documentada con asistencia de IA. Plan terapéutico establecido.",
+          "gen_tags": [
+            "Consulta Externa",
+            "Medicina General"
+          ],
+          "gen_medications": [
+            {
+              "name": "Paracetamol",
+              "dosage": "500 mg VO",
+              "frequency": "Cada 8 horas por 3 días"
+            }
+          ],
+          "completed": true
+        }
+      ]
+    },
+    {
+      "uuid": "s1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "id": "s1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "title": "Control periódico: Hipertensión y Diabetes Tipo 2",
+      "gen_title": "Control periódico: Hipertensión y Diabetes Tipo 2",
+      "gen_summary": "Paciente de 48 años con buen control glucémico actual (HbA1c 6.8%). Se ajusta dosis matutina de ARA-II para optimización de cifras tensionales nocturnas.",
+      "status": "finalized",
+      "created_at": "2026-11-02T10:30:00.000Z",
+      "clinical_tags": [
+        "Medicina General",
+        "Diabetes",
+        "Hipertensión"
+      ],
+      "patient_id": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+      "patient": {
+        "uuid": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+        "full_name": "María González López",
+        "gender": "female",
+        "dob": "1978-04-15"
+      },
+      "notes": [
+        {
+          "uuid": "n1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+          "note_type_slug": "soap",
+          "gen_title": "Nota de Evolución SOAP - María González López",
+          "gen_body": "### Subjetivo (S)\nPaciente femenina de 48 años acude a consulta de control trimestral. Refiere adherencia adecuada al tratamiento médico. Niega palpitaciones, mareos matutinos, disnea o edemas en miembros inferiores.\n\n### Objetivo (O)\n- Signos vitales: TA 128/78 mmHg, FC 68 lpm, FR 16 rpm, SatO2 98%, IMC 27.2 kg/m².\n- Laboratorios recientes: Glucosa en ayunas 108 mg/dL, HbA1c 6.8%, Creatinina 0.85 mg/dL, TFGe >90 mL/min/1.73m², Microalbuminuria negativa.\n- Exploración física: Fondo de ojo sin retinopatía aparente. Ruidos cardíacos rítmicos sin soplos. Pulsos periféricos pedios presentes y simétricos.\n\n### Análisis (A)\n1. Diabetes Mellitus tipo 2 en adecuado control glucémico (E11.9).\n2. Hipertensión arterial sistémica estadio 1 controlada (I10).\n3. Sobrepeso grado 1 estable (E66.0).\n\n### Plan (P)\n1. Continuar Metformina 850 mg vía oral cada 12 horas con los alimentos.\n2. Continuar Losartán 50 mg vía oral cada 24 horas por las mañanas.\n3. Mantener plan de alimentación mediterránea baja en sodio y actividad aeróbica 150 min/semana.\n4. Cita de seguimiento en 3 meses con química sanguínea y perfil lipídico de control.",
+          "gen_summary": "Control trimestral satisfactorio. Se mantienen fármacos y se refuerzan hábitos higiénico-dietéticos.",
+          "gen_tags": [
+            "Diabetes",
+            "Hipertensión",
+            "Consulta de Control"
+          ],
+          "gen_medications": [
+            {
+              "name": "Metformina",
+              "dosage": "850 mg",
+              "frequency": "Cada 12 horas"
+            },
+            {
+              "name": "Losartán",
+              "dosage": "50 mg",
+              "frequency": "Cada 24 horas"
+            }
+          ],
+          "completed": true
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "uuid": "case-1793743209493",
+      "id": "case-1793743209493",
+      "title": "Pérdida de peso involuntaria y diarrea crónica acuosa",
+      "gen_title": "Pérdida de peso involuntaria y diarrea crónica acuosa",
+      "summary": "Hombre de 35 años con diarrea de 6 semanas sin sangre visible, flatulencia y pérdida ponderal de 7 kg.",
+      "gen_summary": "Hombre de 35 años con diarrea de 6 semanas sin sangre visible, flatulencia y pérdida ponderal de 7 kg.",
+      "gen_tags": [
+        "Medicina Interna",
+        "Diagnóstico Diferencial"
+      ],
+      "text_entries": [
+        {
+          "uuid": "te-1793743210730",
+          "content": "Hombre de 35 años con diarrea de 6 semanas sin sangre visible, flatulencia y pérdida ponderal de 7 kg.",
+          "completed": true,
+          "created_at": "2026-11-03T22:00:10.730Z"
+        }
+      ],
+      "queries": [],
+      "files": [],
+      "differential_diagnoses": [
+        {
+          "name": "Encelia celiaca (Enfermedad celíaca)",
+          "probability": "Alta",
+          "reasoning": "Presenta diarrea crónica acuosa, flatulencia y pérdida de peso significativa en un adulto joven, lo cual es la presentación clásica de malabsorción por enteropatía sensible al gluten."
+        },
+        {
+          "name": "Síndrome de intestino irritable con predominio de diarrea (SII-D)",
+          "probability": "Moderada",
+          "reasoning": "La diarrea crónica y la flatulencia son síntomas comunes del SII, aunque la pérdida de peso de 7 kg sugiere la necesidad de descartar patologías orgánicas primero."
+        },
+        {
+          "name": "Giardiasis crónica",
+          "probability": "Baja",
+          "reasoning": "Infección parasitaria que puede causar diarrea acuosa crónica, flatulencia importante y pérdida de peso por malabsorción secundaria, siendo un diagnóstico diferencial infeccioso relevante."
+        }
+      ],
+      "gen_considerations": [
+        "Solicitar biometría hemática completa, química sanguínea y perfil bioquímico.",
+        "Evaluar respuesta clínica a las 48-72 horas.",
+        "Descartar banderas rojas de alarma neurológica o cardiovascular."
+      ],
+      "gen_inquiry_prompts": [
+        "¿Hay antecedentes heredofamiliares o factores de riesgo relevantes?",
+        "¿Cómo fue la respuesta a los tratamientos previos?"
+      ],
+      "created_at": "2026-11-03T22:00:10.730Z",
+      "updated_at": "2026-11-03T22:00:10.730Z"
+    },
+    {
+      "uuid": "c1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "id": "c1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "title": "Cefalea holocraneana subaguda con diplopía intermitente",
+      "gen_title": "Cefalea holocraneana subaguda con diplopía intermitente",
+      "summary": "Mujer de 42 años con cefalea pulsátil de 3 semanas de evolución, que empeora en decúbito y al despertar.",
+      "gen_summary": "Mujer de 42 años con cefalea pulsátil de 3 semanas de evolución, que empeora en decúbito y al despertar. Se asocia a visión borrosa y acúfenos pulsátiles bilaterales.",
+      "gen_tags": [
+        "Neurología",
+        "Cefaleas",
+        "Diagnóstico Diferencial"
+      ],
+      "text_entries": [
+        {
+          "uuid": "te-case-001",
+          "content": "Paciente femenina de 42 años, IMC 33 kg/m², presenta cefalea progresiva holocraneana pulsátil de predominio matutino con acúfeno sincrónico al pulso y episodios transitorios de visión borrosa al agacharse.",
+          "completed": true,
+          "created_at": "2026-11-01T19:26:24.942Z"
+        }
+      ],
+      "queries": [],
+      "files": [],
+      "differential_diagnoses": [
+        {
+          "name": "Hipertensión intracraneal idiopática (Pseudotumor cerebri)",
+          "probability": "Alta",
+          "reasoning": "Mujer en edad fértil con sobrepeso/obesidad, cefalea que empeora con maniobras de Valsalva, acúfenos pulsátiles y oscurecimientos visuales transitorios por papiledema."
+        },
+        {
+          "name": "Trombosis venosa cerebral (seno sagital superior / transverso)",
+          "probability": "Moderada",
+          "reasoning": "Clínica de hipertensión intracraneal subaguda. Imprescindible realizar Angio-Resonancia Magnética en fase venosa para descartar compromiso vascular."
+        },
+        {
+          "name": "Migraña crónica o cefalea por abuso de analgésicos",
+          "probability": "Baja",
+          "reasoning": "El patrón posicional (empeora en decúbito) y los acúfenos pulsátiles son banderas rojas atípicas para cefalea primaria benigna."
+        }
+      ],
+      "gen_considerations": [
+        "Fondo de ojo urgente para evaluar presencia de papiledema bilateral.",
+        "Resonancia magnética cerebral con contraste y angio-RM venosa.",
+        "Punción lumbar diagnóstica con manometría de apertura si la neuroimagen descarta masa ocupante."
+      ],
+      "gen_inquiry_prompts": [
+        "¿Presenta papiledema visible al examen de fondo de ojo?",
+        "¿Toma anticonceptivos orales, derivados de vitamina A o tetraciclinas?"
+      ],
+      "created_at": "2026-11-01T19:26:24.942Z",
+      "updated_at": "2026-11-01T19:26:24.942Z"
+    }
+  ],
+  "queries": [
+    {
+      "uuid": "query-1793750236261",
+      "id": "query-1793750236261",
+      "question": "explicame funcionamiento de furosemida",
+      "gen_answer": "### Mecanismo de Acción y Farmacología Clínica de la Furosemida\n\nLa **furosemida** es un diurético de asa potente, derivado de la sulfonamida, cuyo sitio principal de acción es la **rama ascendente gruesa del asa de Henle** [1].\n\n#### 1. Sitio y Mecanismo Molecular\n* **Inhibición del cotransportador $\\text{Na}^+/\\text{K}^+/2\\text{Cl}^-$ (NKCC2):** La furosemida actúa desde la luz tubular al unirse competitivamente al sitio de unión del cloruro en el cotransportador apical NKCC2 en las células epiteliales de la rama ascendente gruesa. Esto bloquea la reabsorción activa de sodio ($\\text{Na}^+$), potasio ($\\text{K}^+$) y cloruro ($\\text{Cl}^-$) [1, 2].\n* **Pérdida del gradiente medular:** Al impedir la reabsorción de solutos en este segmento diluyente del nefrón, se disrumpe el gradiente hipertónico del intersticio medular renal, lo que compromete secundariamente la capacidad del riñón para concentrar la orina.\n\n#### 2. Efectos Renales y Sistémicos\n* **Natriuresis y diuresis acu Eres:** Incrementa significativamente la excreción fraccional de sodio (hasta un 20-25% del filtrado glomerular), cloro y agua.\n* **Efectos sobre el manejo del potasio y cationes divalentes:** Aumenta la entrega de solutos al túbulo contorneado distal, lo que estimula la secreción de potasio e hidrogeniones (riesgo de hipocalemia y alcalosis metabólica). A diferencia de las tiazidas, los diuréticos de asa **disminuyen la reabsorción de calcio y magnesio**, promoviendo su excreción urinaria (calciuresis) [3].\n* **Efectos hemodinámicos agudos (independientes de la diuresis):** Por vía intravenosa, la furosemida induce una venodilatación rápida mediada por prostaglandinas renales, reduciendo la presión de llenado ventricular izquierdo (precarga) antes de que ocurra el efecto diurético neto, lo que explica su utilidad crítica en el edema agudo de pulmón [1, 4].\n\n#### 3. Perímetro Farmacocinético\n* **Biodisponibilidad:** Variable por vía oral (promedio 50%, con rangos de 10-90%), altamente afectada por el edema intestinal en la insuficiencia cardíaca descompensada.\n* **Unión a proteínas:** >95% (principalmente albúmina), lo que limita su filtración glomerular; ejerce su acción al ser secretada activamente hacia la luz tubular a través de los transportadores de aniones orgánicos (OAT) en el túbulo contorneado proximal [2].\n* **Vida media:** 1.5 a 2 horas (prolongada en insuficiencia renal avanzada o hepática).\n\n---\n\n### Referencias Bibliográficas\n1. Brater DC. Diuretics. *Diuresis, Pharmacology, and Clinical Use*. Drugs. 1999;54(Suppl 5):57-70.\n2. Sica DA, Carter B, Cushman W, Hamm L. Thiazide and loop diuretics. *J Clin Hypertens (Greenwich)*. 2011;13(9):639-643.\n3. Ellison DH, Felker GM. Diuretic Treatment in Heart Failure. *N Engl J Med*. 2017;377(20):1964-1975.\n4. Felker GM, Ellison DH, Mullens W, Cox ZL, Testani JM. Diuretic Therapy for Patients With Heart Failure: JACC State-of-the-Art Review. *J Am Coll Cardiol*. 2020;75(10):1178-1195.\n\n---\n\n### Preguntas de Seguimiento Sugeridas\n1. ¿Cuáles son los mecanismos farmacológicos subyacentes a la resistencia a los diuréticos de asa en la insuficiencia cardíaca avanzada y cómo se aborda clínicamente (ej. terapia secuencial de nefrona)?\n2. ¿Cómo se ajusta la conversión de dosis entre la administración oral e intravenosa de furosemida considerando su biodisponibilidad y perfil farmacocinético?",
+      "gen_answer_body": "### Mecanismo de Acción y Farmacología Clínica de la Furosemida\n\nLa **furosemida** es un diurético de asa potente, derivado de la sulfonamida, cuyo sitio principal de acción es la **rama ascendente gruesa del asa de Henle** [1].\n\n#### 1. Sitio y Mecanismo Molecular\n* **Inhibición del cotransportador $\\text{Na}^+/\\text{K}^+/2\\text{Cl}^-$ (NKCC2):** La furosemida actúa desde la luz tubular al unirse competitivamente al sitio de unión del cloruro en el cotransportador apical NKCC2 en las células epiteliales de la rama ascendente gruesa. Esto bloquea la reabsorción activa de sodio ($\\text{Na}^+$), potasio ($\\text{K}^+$) y cloruro ($\\text{Cl}^-$) [1, 2].\n* **Pérdida del gradiente medular:** Al impedir la reabsorción de solutos en este segmento diluyente del nefrón, se disrumpe el gradiente hipertónico del intersticio medular renal, lo que compromete secundariamente la capacidad del riñón para concentrar la orina.\n\n#### 2. Efectos Renales y Sistémicos\n* **Natriuresis y diuresis acu Eres:** Incrementa significativamente la excreción fraccional de sodio (hasta un 20-25% del filtrado glomerular), cloro y agua.\n* **Efectos sobre el manejo del potasio y cationes divalentes:** Aumenta la entrega de solutos al túbulo contorneado distal, lo que estimula la secreción de potasio e hidrogeniones (riesgo de hipocalemia y alcalosis metabólica). A diferencia de las tiazidas, los diuréticos de asa **disminuyen la reabsorción de calcio y magnesio**, promoviendo su excreción urinaria (calciuresis) [3].\n* **Efectos hemodinámicos agudos (independientes de la diuresis):** Por vía intravenosa, la furosemida induce una venodilatación rápida mediada por prostaglandinas renales, reduciendo la presión de llenado ventricular izquierdo (precarga) antes de que ocurra el efecto diurético neto, lo que explica su utilidad crítica en el edema agudo de pulmón [1, 4].\n\n#### 3. Perímetro Farmacocinético\n* **Biodisponibilidad:** Variable por vía oral (promedio 50%, con rangos de 10-90%), altamente afectada por el edema intestinal en la insuficiencia cardíaca descompensada.\n* **Unión a proteínas:** >95% (principalmente albúmina), lo que limita su filtración glomerular; ejerce su acción al ser secretada activamente hacia la luz tubular a través de los transportadores de aniones orgánicos (OAT) en el túbulo contorneado proximal [2].\n* **Vida media:** 1.5 a 2 horas (prolongada en insuficiencia renal avanzada o hepática).\n\n---\n\n### Referencias Bibliográficas\n1. Brater DC. Diuretics. *Diuresis, Pharmacology, and Clinical Use*. Drugs. 1999;54(Suppl 5):57-70.\n2. Sica DA, Carter B, Cushman W, Hamm L. Thiazide and loop diuretics. *J Clin Hypertens (Greenwich)*. 2011;13(9):639-643.\n3. Ellison DH, Felker GM. Diuretic Treatment in Heart Failure. *N Engl J Med*. 2017;377(20):1964-1975.\n4. Felker GM, Ellison DH, Mullens W, Cox ZL, Testani JM. Diuretic Therapy for Patients With Heart Failure: JACC State-of-the-Art Review. *J Am Coll Cardiol*. 2020;75(10):1178-1195.\n\n---\n\n### Preguntas de Seguimiento Sugeridas\n1. ¿Cuáles son los mecanismos farmacológicos subyacentes a la resistencia a los diuréticos de asa en la insuficiencia cardíaca avanzada y cómo se aborda clínicamente (ej. terapia secuencial de nefrona)?\n2. ¿Cómo se ajusta la conversión de dosis entre la administración oral e intravenosa de furosemida considerando su biodisponibilidad y perfil farmacocinético?",
+      "completed": true,
+      "created_at": "2026-11-03 23:57:20",
+      "published_at": "2026-11-03T23:57:20.308Z",
+      "share_token": "share-query-1793750236261",
+      "slug": "q-query-1793750236261",
+      "gen_citations": [
+        {
+          "title": "Evidence-Based Clinical Practice Guidelines",
+          "journal": "New England Journal of Medicine",
+          "year": 2024,
+          "doi": "10.1056/NEJMoa24001"
+        },
+        {
+          "title": "Systematic Review and Meta-Analysis of Clinical Outcomes",
+          "journal": "The Lancet",
+          "year": 2024,
+          "doi": "10.1016/S0140-6736(24)001"
+        }
+      ],
+      "gen_related_questions": [
+        "¿Qué criterios determinan el escalamiento terapéutico?",
+        "¿Cuáles son las principales contraindicaciones en adultos mayores?"
+      ],
+      "deep_research": false
+    },
+    {
+      "uuid": "query-1793749430612",
+      "id": "query-1793749430612",
+      "question": "Haz un cuadro comparativo entre neumonía viral y bacteriana",
+      "gen_answer": "Como motor de Evidencia y Deep Research de Itaca, presento a continuación un análisis comparativo estructurado entre la neumonía adquirida en la comunidad (NAC) de etiología viral y la bacteriana, diseñado para la toma de decisiones clínicas basada en la evidencia.\n\n### Cuadro Comparativo: Neumonía Viral vs. Bacteriana\n\n| Parámetro Clínico | Neumonía Viral | Neumonía Bacteriana |\n| :--- | :--- | :--- |\n| **Etiología Principal** | Influenza A y B, VRS, SARS-CoV-2, Parainfluenza, Adenovirus [1]. | *Streptococcus pneumoniae* (más frecuente), *Mycoplasma pneumoniae*, *Haemophilus influenzae*, *Staphylococcus aureus* [2]. |\n| **Modo de Inicio** | Frecuentemente **insidioso**, precedido por síntomas de vía aérea superior (rinorrea, odinofagia, mialgias) [3]. | Típicamente **brusco o agudo**, con escalofríos intensos y fiebre elevada de rápida instauración [2]. |\n| **Presentación Clínica y Tos** | Tos predominantemente **seca o escasamente productiva**. Mayor frecuencia de sibilancias y disnea desproporcionada [1, 3]. | Tos con **esputo purulento, herrumbroso** (característico de *S. pneumoniae*) o con sangre. Dolor pleurítico frecuente [2]. |\n| **Biomarcadores (Leucocitos y PCR)** | Recuento leucocitario normal o levemente elevado con **predominio linfocitario**. PCR moderadamente elevada [4]. | Leucocitosis franca (**>15,000/µL**) con neutrofilia y desviación a la izquierda. PCT y PCR marcadamente elevadas [2, 4]. |\n| **Hallazgos Radiológicos** | Infiltrados intersticiales difusos, bilaterales, patrón en vidrio esmerilado o consolidaciones parcheadas (multilobares) [1, 3]. | **Consolidación lobar o segmentaria única**, con broncograma aéreo frecuente y posible derrame pleural paraneumónico [2]. |\n| **Abordaje Terapéutico** | Soporte hemodinámico y respiratorio. Antivirales específicos si se indica (ej. oseltamivir para influenza, Paxlovid/remdesivir para SARS-CoV-2) en ventana oportuna [1]. | **Antimicrobianos empíricos** según guías locales (ej. betalactámico + macrólido o fluoroquinolona respiratoria) [2]. |\n\n---\n\n### Evidencia y Referencias Bibliográficas\n\n1. **Mandell, L. A., & Wunderink, R. G.** (2016). Pneumonia. *In Goldman-Cecil Medicine* (25th ed., pp. 604-617). Elsevier.\n2. **Metlay, J. P., Waterer, G. W., Long, A. C., et al.** (2019). Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America. *Am J Respir Crit Care Med*, 200(7), e45-e67. DOI: [10.1164/rccm.201908-1581ST](https://doi.org/10.1164/rccm.201908-1581ST).\n3. **Jain, S., Self, W. H., Wunderink, R. G., et al.** (2015). Community-Acquired Pneumonia Requiring Hospitalization among U.S. Adults. *N Engl J Med*, 373(5), 415-427. DOI: [10.1056/NEJMoa1500245](https://doi.org/10.1056/NEJMoa1500245).\n4. **Schuetz, P., Wirz, Y., Sager, R., et al.** (2018). Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections. *Cochrane Database of Systematic Reviews*, (10). DOI: [10.1002/14651858.CD007498.pub3](https://doi.org/10.1002/14651858.CD007498.pub3).\n\n---\n\n### Preguntas de Seguimiento\n\n1. ¿Cuál es la utilidad clínica actual de la Procalcitonina (PCT) para diferenciar de forma fiable la coinfección bacteriana en pacientes hospitalizados con neumonía viral confirmada?\n2. Ante un paciente con sospecha clínica mixta (atípica/viral vs. bacteriana clásica), ¿cuál es el protocolo recomendado para el escalonamiento o desescalonamiento antibiótico guiado por PCR multiplex en el servicio de urgencias?",
+      "gen_answer_body": "Como motor de Evidencia y Deep Research de Itaca, presento a continuación un análisis comparativo estructurado entre la neumonía adquirida en la comunidad (NAC) de etiología viral y la bacteriana, diseñado para la toma de decisiones clínicas basada en la evidencia.\n\n### Cuadro Comparativo: Neumonía Viral vs. Bacteriana\n\n| Parámetro Clínico | Neumonía Viral | Neumonía Bacteriana |\n| :--- | :--- | :--- |\n| **Etiología Principal** | Influenza A y B, VRS, SARS-CoV-2, Parainfluenza, Adenovirus [1]. | *Streptococcus pneumoniae* (más frecuente), *Mycoplasma pneumoniae*, *Haemophilus influenzae*, *Staphylococcus aureus* [2]. |\n| **Modo de Inicio** | Frecuentemente **insidioso**, precedido por síntomas de vía aérea superior (rinorrea, odinofagia, mialgias) [3]. | Típicamente **brusco o agudo**, con escalofríos intensos y fiebre elevada de rápida instauración [2]. |\n| **Presentación Clínica y Tos** | Tos predominantemente **seca o escasamente productiva**. Mayor frecuencia de sibilancias y disnea desproporcionada [1, 3]. | Tos con **esputo purulento, herrumbroso** (característico de *S. pneumoniae*) o con sangre. Dolor pleurítico frecuente [2]. |\n| **Biomarcadores (Leucocitos y PCR)** | Recuento leucocitario normal o levemente elevado con **predominio linfocitario**. PCR moderadamente elevada [4]. | Leucocitosis franca (**>15,000/µL**) con neutrofilia y desviación a la izquierda. PCT y PCR marcadamente elevadas [2, 4]. |\n| **Hallazgos Radiológicos** | Infiltrados intersticiales difusos, bilaterales, patrón en vidrio esmerilado o consolidaciones parcheadas (multilobares) [1, 3]. | **Consolidación lobar o segmentaria única**, con broncograma aéreo frecuente y posible derrame pleural paraneumónico [2]. |\n| **Abordaje Terapéutico** | Soporte hemodinámico y respiratorio. Antivirales específicos si se indica (ej. oseltamivir para influenza, Paxlovid/remdesivir para SARS-CoV-2) en ventana oportuna [1]. | **Antimicrobianos empíricos** según guías locales (ej. betalactámico + macrólido o fluoroquinolona respiratoria) [2]. |\n\n---\n\n### Evidencia y Referencias Bibliográficas\n\n1. **Mandell, L. A., & Wunderink, R. G.** (2016). Pneumonia. *In Goldman-Cecil Medicine* (25th ed., pp. 604-617). Elsevier.\n2. **Metlay, J. P., Waterer, G. W., Long, A. C., et al.** (2019). Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America. *Am J Respir Crit Care Med*, 200(7), e45-e67. DOI: [10.1164/rccm.201908-1581ST](https://doi.org/10.1164/rccm.201908-1581ST).\n3. **Jain, S., Self, W. H., Wunderink, R. G., et al.** (2015). Community-Acquired Pneumonia Requiring Hospitalization among U.S. Adults. *N Engl J Med*, 373(5), 415-427. DOI: [10.1056/NEJMoa1500245](https://doi.org/10.1056/NEJMoa1500245).\n4. **Schuetz, P., Wirz, Y., Sager, R., et al.** (2018). Procalcitonin to initiate or discontinue antibiotics in acute respiratory tract infections. *Cochrane Database of Systematic Reviews*, (10). DOI: [10.1002/14651858.CD007498.pub3](https://doi.org/10.1002/14651858.CD007498.pub3).\n\n---\n\n### Preguntas de Seguimiento\n\n1. ¿Cuál es la utilidad clínica actual de la Procalcitonina (PCT) para diferenciar de forma fiable la coinfección bacteriana en pacientes hospitalizados con neumonía viral confirmada?\n2. Ante un paciente con sospecha clínica mixta (atípica/viral vs. bacteriana clásica), ¿cuál es el protocolo recomendado para el escalonamiento o desescalonamiento antibiótico guiado por PCR multiplex en el servicio de urgencias?",
+      "completed": true,
+      "created_at": "2026-11-03 23:43:54",
+      "published_at": "2026-11-03T23:43:54.530Z",
+      "share_token": "share-query-1793749430612",
+      "slug": "q-query-1793749430612",
+      "gen_citations": [
+        {
+          "title": "Evidence-Based Clinical Practice Guidelines",
+          "journal": "New England Journal of Medicine",
+          "year": 2024,
+          "doi": "10.1056/NEJMoa24001"
+        },
+        {
+          "title": "Systematic Review and Meta-Analysis of Clinical Outcomes",
+          "journal": "The Lancet",
+          "year": 2024,
+          "doi": "10.1016/S0140-6736(24)001"
+        }
+      ],
+      "gen_related_questions": [
+        "¿Qué criterios determinan el escalamiento terapéutico?",
+        "¿Cuáles son las principales contraindicaciones en adultos mayores?"
+      ],
+      "deep_research": false
+    },
+    {
+      "uuid": "query-1793745370430",
+      "id": "query-1793745370430",
+      "question": "furosemida mecanismo accion",
+      "gen_answer": "### Mecanismo de Acción de la Furosemida\n\nLa **furosemida** es un diurético de asa (de alto techo) derivado de las sulfonamidas. Su sitio principal de acción es la **rama ascendente gruesa del asa de Henle** (TALH) en la nefrona renal [1].\n\n#### 1. Fisiología y Farmacodinamia Molecular\n* **Inhibición del cotransportador $\\text{Na}^+\\text{-K}^+\\text{-2Cl}^-$ (NKCC2):** La furosemida se une competitivamente al sitio de unión del cloruro en el cotransportador luminal apical (NKCC2) en las células de la TALH [2].\n* **Bloqueo del transporte iónico:** Al inhibir este cotransportador, bloquea la reabsorción activa de sodio ($\\text{Na}^+$), potasio ($\\text{K}^+$) y cloro ($\\text{Cl}^-$) desde la luz tubular hacia el intersticio medular [3].\n* **Pérdida del gradiente hiperosmolar:** Al impedir la reabsorción de solutos en la rama ascendente gruesa, se disrumpe el gradiente osmótico corticomedular, lo que inhibe la capacidad del riñón para concentrar o diluir la orina [1].\n\n#### 2. Efectos Fisiológicos Secundarios\n* **Natriuresis y Diuresis:** Incrementa significativamente la excreción urinaria de sodio, cloro y agua.\n* **Pérdida de electrolitos adicionales:** \n  * Aumenta la excreción de calcio ($\\text{Ca}^{2+}$) y magnesio ($\\text{Mg}^{2+}$) al disminuir el potencial positivo luminal generado por la reabsorción de potasio, reduciendo la fuerza impulsora para la reabsorción paracelular de cationes divalentes [4].\n  * Induce hipokalemia y alcalosis hipoclorémica debido al aumento en la entrega de $\\text{Na}^+$ al túbulo contorneado distal, lo que estimula la secreción de $\\text{K}^+$ e hidrogeniones ($\\text{H}^+$) [1].\n* **Efectos Vasculares Agudos:** La administración intravenosa rápida produce una venodilatación sistémica inmediata (aumento de la capacitancia venosa) mediada por prostaglandinas renales, lo que reduce la presión de llenado ventricular izquierdo (precarca) **antes** de que se manifieste el efecto diurético, siendo crucial en el tratamiento del edema agudo de pulmón [5].\n\n---\n\n### Referencias Bibliográficas\n1. Jackson EK. Diuretics. In: Brunton LL, Hilal-Dandan R, Knollmann BC, eds. *Goodman & Gilman's: The Pharmacological Basis of Therapeutics*. 13th ed. New York, NY: McGraw-Hill; 2017.\n2. Haas M, Forbush B Зrd. The Na-K-Cl cotransporters. *J Bioenerg Biomembr*. 1998;30(2):160-172. doi:10.1023/a:1020511608225.\n3. Greger R. Mechanism of action of diuretics on the thick ascending limb of Henle's loop. *Kidney Int Suppl*. 1997;59:S60-S66.\n4. Sica DA. Diuretic use in refractoriness and resistance. *Congest Heart Fail*. 2007;13(2):106-110. doi:10.1111/j.1527-5299.2007.05929.x.\n5. Ellrodt AG, Murata GH, Meissner MH, et al. Vasodilator effects of furosemide in patients with left ventricular failure. *Ann Intern Med*. 1985;102(2):191-197. doi:10.7326/0003-4819-102-2-191.\n\n---\n\n### Preguntas de Seguimiento Sugeridas\n1. ¿Cuáles son los mecanismos moleculares y farmacocinéticos implicados en la resistencia a diuréticos de asa en la insuficiencia cardíaca avanzada?\n2. ¿Cómo se ajusta la conversión farmacocinética entre la furosemida oral y la administración intravenosa continua versus en bolo?",
+      "gen_answer_body": "### Mecanismo de Acción de la Furosemida\n\nLa **furosemida** es un diurético de asa (de alto techo) derivado de las sulfonamidas. Su sitio principal de acción es la **rama ascendente gruesa del asa de Henle** (TALH) en la nefrona renal [1].\n\n#### 1. Fisiología y Farmacodinamia Molecular\n* **Inhibición del cotransportador $\\text{Na}^+\\text{-K}^+\\text{-2Cl}^-$ (NKCC2):** La furosemida se une competitivamente al sitio de unión del cloruro en el cotransportador luminal apical (NKCC2) en las células de la TALH [2].\n* **Bloqueo del transporte iónico:** Al inhibir este cotransportador, bloquea la reabsorción activa de sodio ($\\text{Na}^+$), potasio ($\\text{K}^+$) y cloro ($\\text{Cl}^-$) desde la luz tubular hacia el intersticio medular [3].\n* **Pérdida del gradiente hiperosmolar:** Al impedir la reabsorción de solutos en la rama ascendente gruesa, se disrumpe el gradiente osmótico corticomedular, lo que inhibe la capacidad del riñón para concentrar o diluir la orina [1].\n\n#### 2. Efectos Fisiológicos Secundarios\n* **Natriuresis y Diuresis:** Incrementa significativamente la excreción urinaria de sodio, cloro y agua.\n* **Pérdida de electrolitos adicionales:** \n  * Aumenta la excreción de calcio ($\\text{Ca}^{2+}$) y magnesio ($\\text{Mg}^{2+}$) al disminuir el potencial positivo luminal generado por la reabsorción de potasio, reduciendo la fuerza impulsora para la reabsorción paracelular de cationes divalentes [4].\n  * Induce hipokalemia y alcalosis hipoclorémica debido al aumento en la entrega de $\\text{Na}^+$ al túbulo contorneado distal, lo que estimula la secreción de $\\text{K}^+$ e hidrogeniones ($\\text{H}^+$) [1].\n* **Efectos Vasculares Agudos:** La administración intravenosa rápida produce una venodilatación sistémica inmediata (aumento de la capacitancia venosa) mediada por prostaglandinas renales, lo que reduce la presión de llenado ventricular izquierdo (precarca) **antes** de que se manifieste el efecto diurético, siendo crucial en el tratamiento del edema agudo de pulmón [5].\n\n---\n\n### Referencias Bibliográficas\n1. Jackson EK. Diuretics. In: Brunton LL, Hilal-Dandan R, Knollmann BC, eds. *Goodman & Gilman's: The Pharmacological Basis of Therapeutics*. 13th ed. New York, NY: McGraw-Hill; 2017.\n2. Haas M, Forbush B Зrd. The Na-K-Cl cotransporters. *J Bioenerg Biomembr*. 1998;30(2):160-172. doi:10.1023/a:1020511608225.\n3. Greger R. Mechanism of action of diuretics on the thick ascending limb of Henle's loop. *Kidney Int Suppl*. 1997;59:S60-S66.\n4. Sica DA. Diuretic use in refractoriness and resistance. *Congest Heart Fail*. 2007;13(2):106-110. doi:10.1111/j.1527-5299.2007.05929.x.\n5. Ellrodt AG, Murata GH, Meissner MH, et al. Vasodilator effects of furosemide in patients with left ventricular failure. *Ann Intern Med*. 1985;102(2):191-197. doi:10.7326/0003-4819-102-2-191.\n\n---\n\n### Preguntas de Seguimiento Sugeridas\n1. ¿Cuáles son los mecanismos moleculares y farmacocinéticos implicados en la resistencia a diuréticos de asa en la insuficiencia cardíaca avanzada?\n2. ¿Cómo se ajusta la conversión farmacocinética entre la furosemida oral y la administración intravenosa continua versus en bolo?",
+      "completed": true,
+      "created_at": "2026-11-03 22:36:15",
+      "published_at": "2026-11-03T22:36:15.450Z",
+      "share_token": "share-query-1793745370430",
+      "slug": "q-query-1793745370430",
+      "gen_citations": [
+        {
+          "title": "Evidence-Based Clinical Practice Guidelines",
+          "journal": "New England Journal of Medicine",
+          "year": 2024,
+          "doi": "10.1056/NEJMoa24001"
+        },
+        {
+          "title": "Systematic Review and Meta-Analysis of Clinical Outcomes",
+          "journal": "The Lancet",
+          "year": 2024,
+          "doi": "10.1016/S0140-6736(24)001"
+        }
+      ],
+      "gen_related_questions": [
+        "¿Qué criterios determinan el escalamiento terapéutico?",
+        "¿Cuáles son las principales contraindicaciones en adultos mayores?"
+      ],
+      "deep_research": false
+    },
+    {
+      "uuid": "query-1793743525569",
+      "id": "query-1793743525569",
+      "question": "furosemida",
+      "gen_answer": "### Furosemida: Perfil Farmacológico y Clínico Basado en Evidencia\n\n#### 1. Mecanismo de Acción y Farmacodinámica\nLa furosemida es un diurético de asa potente que actúa inhibiendo el cotransportador de sodio-potasio-cloruro ($Na^+/K^+/2Cl^-$) en la porción ascendente gruesa del asa de Henle luminal [1]. Al bloquear este transportador, reduce la reabsorción renal de estos iones, lo que genera una pérdida masiva de agua, sodio, cloro, calcio y magnesio. Posee además un efecto vasodilatador venoso sistémico transitorio mediado por prostaglandinas renales, útil en la reducción aguda de la precarga cardíaca.\n\n#### 2. Indicaciones Clínicas Principales\n*   **Insuficiencia Cardíaca Aguda y Crónica:** Pilar fundamental para el alivio sintomático de la congestión pulmonar y sistémica [2].\n*   **Edema Agudo de Pulmón (EAP):** Indicación de primera línea por su rápido inicio de acción por vía intravenosa (IV).\n*   **Edema Refractario:** Asociado a enfermedad renal crónica (estadios avanzados) o hepática (ascitis por cirrosis, típicamente en combinación con antagonistas de la aldosterona) [3].\n*   **Crisis Hipertensivas:** Como terapia coadyuvante en escenarios de sobrecarga de volumen o fallo renal agudo/crónico.\n\n#### 3. Dosificación y Vía de Administración\n*   **Vía Oral (VO):** Biodisponibilidad altamente variable (promedio 50%, rango 10-90%). Dosis inicial habitual: 20-40 mg cada 24 horas, ajustable según respuesta clínica hasta un máximo de 600 mg/día en casos severos.\n*   **Vía Intravenosa (IV):** Inicio de acción en 5 minutos, pico a los 30 minutos. Dosis inicial en insuficiencia cardíaca descompensada: bolo IV equivalente o superior a la dosis oral previa del paciente (mínimo 20-40 mg), o infusión continua en casos de resistencia a diuréticos [2].\n\n#### 4. Farmacocinética y Consideraciones Especiales\n*   **Metabolismo y Excreción:** Se une fuertemente a proteínas plasmáticas (>95%). Su acción diurética depende de su secreción activa hacia la luz tubular a través de los transportadores de aniones orgánicos (OAT) en el túbulo contorneado proximal. En la insuficiencia renal crónica, se requieren dosis mayores debido a la uremia (competición por los OAT) y la menor filtración glomerular.\n\n#### 5. Efectos Adversos y Toxicidad\n*   **Electrolíticos y Metabólicos:** Hiponatremia, hipopotasemia, hipomagnesemia, hipocalcemia y alcalosis metabólica hipoclorémica.\n*   **Renales:** Insuficiencia renal prerrenal por depleción de volumen y aumento transitorio de creatinina sérica.\n*   **Ototoxicidad:** Dosis elevadas o infusión IV rápida (especialmente asociada a otros fármacos ototóxicos como aminoglucósidos) pueden causar tinnitus y pérdida auditiva transitoria o permanente.\n*   **Hiperuricemia:** Puede precipitar ataques de gota por competencia con el ácido úrico en la secreción tubular.\n\n#### 6. Interacciones Farmacológicas Relevantes\n*   **AINEs:** Reducen el efecto natriurético de la furosemida al inhibir la síntesis de prostaglandinas renales y pueden precipitar lesión renal aguda.\n*   **Nefrotóxicos (Aminoglucósidos, Anfotericina B, Cisplatino):** Incrementan el riesgo de nefrotoxicidad y ototoxicidad.\n*   **Litio:** Disminuye su excreción renal, elevando el riesgo de toxicidad por litio.\n*   **IECA/ARA-II:** Riesgo aumentado de hipotensión severa e insuficiencia renal aguda, especialmente al inicio del tratamiento concomitante por depleción de volumen.\n\n---\n\n### Referencias Bibliográficas\n1. Brater DC. Diuretics. *N Engl J Med*. 1998;339(6):387-395. doi:10.1056/NEJM199808063390607.\n2. Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. *J Am Coll Cardiol*. 2022;79(17):e263-e421. doi:10.1016/j.jacc.2021.12.012.\n3. Felker GM, Ellison DH. Diuretic Therapy for Patients with Heart Failure: JACC State-of-the-Art Review. *J Am Coll Cardiol*. 2020;75(10):1178-1195. doi:10.1016/j.jacc.2019.12.059.\n\n---\n\n### Preguntas de Seguimiento Sugeridas\n1. ¿Cuál es el protocolo basado en evidencia para el manejo de la resistencia a la furosemida en pacientes con insuficiencia cardíaca avanzada?\n2. ¿Qué estrategias farmacológicas y de monitoreo se recomiendan al realizar la transición de furosemida intravenosa a vía oral en pacientes hospitalizados por descompensación cardíaca?",
+      "gen_answer_body": "### Furosemida: Perfil Farmacológico y Clínico Basado en Evidencia\n\n#### 1. Mecanismo de Acción y Farmacodinámica\nLa furosemida es un diurético de asa potente que actúa inhibiendo el cotransportador de sodio-potasio-cloruro ($Na^+/K^+/2Cl^-$) en la porción ascendente gruesa del asa de Henle luminal [1]. Al bloquear este transportador, reduce la reabsorción renal de estos iones, lo que genera una pérdida masiva de agua, sodio, cloro, calcio y magnesio. Posee además un efecto vasodilatador venoso sistémico transitorio mediado por prostaglandinas renales, útil en la reducción aguda de la precarga cardíaca.\n\n#### 2. Indicaciones Clínicas Principales\n*   **Insuficiencia Cardíaca Aguda y Crónica:** Pilar fundamental para el alivio sintomático de la congestión pulmonar y sistémica [2].\n*   **Edema Agudo de Pulmón (EAP):** Indicación de primera línea por su rápido inicio de acción por vía intravenosa (IV).\n*   **Edema Refractario:** Asociado a enfermedad renal crónica (estadios avanzados) o hepática (ascitis por cirrosis, típicamente en combinación con antagonistas de la aldosterona) [3].\n*   **Crisis Hipertensivas:** Como terapia coadyuvante en escenarios de sobrecarga de volumen o fallo renal agudo/crónico.\n\n#### 3. Dosificación y Vía de Administración\n*   **Vía Oral (VO):** Biodisponibilidad altamente variable (promedio 50%, rango 10-90%). Dosis inicial habitual: 20-40 mg cada 24 horas, ajustable según respuesta clínica hasta un máximo de 600 mg/día en casos severos.\n*   **Vía Intravenosa (IV):** Inicio de acción en 5 minutos, pico a los 30 minutos. Dosis inicial en insuficiencia cardíaca descompensada: bolo IV equivalente o superior a la dosis oral previa del paciente (mínimo 20-40 mg), o infusión continua en casos de resistencia a diuréticos [2].\n\n#### 4. Farmacocinética y Consideraciones Especiales\n*   **Metabolismo y Excreción:** Se une fuertemente a proteínas plasmáticas (>95%). Su acción diurética depende de su secreción activa hacia la luz tubular a través de los transportadores de aniones orgánicos (OAT) en el túbulo contorneado proximal. En la insuficiencia renal crónica, se requieren dosis mayores debido a la uremia (competición por los OAT) y la menor filtración glomerular.\n\n#### 5. Efectos Adversos y Toxicidad\n*   **Electrolíticos y Metabólicos:** Hiponatremia, hipopotasemia, hipomagnesemia, hipocalcemia y alcalosis metabólica hipoclorémica.\n*   **Renales:** Insuficiencia renal prerrenal por depleción de volumen y aumento transitorio de creatinina sérica.\n*   **Ototoxicidad:** Dosis elevadas o infusión IV rápida (especialmente asociada a otros fármacos ototóxicos como aminoglucósidos) pueden causar tinnitus y pérdida auditiva transitoria o permanente.\n*   **Hiperuricemia:** Puede precipitar ataques de gota por competencia con el ácido úrico en la secreción tubular.\n\n#### 6. Interacciones Farmacológicas Relevantes\n*   **AINEs:** Reducen el efecto natriurético de la furosemida al inhibir la síntesis de prostaglandinas renales y pueden precipitar lesión renal aguda.\n*   **Nefrotóxicos (Aminoglucósidos, Anfotericina B, Cisplatino):** Incrementan el riesgo de nefrotoxicidad y ototoxicidad.\n*   **Litio:** Disminuye su excreción renal, elevando el riesgo de toxicidad por litio.\n*   **IECA/ARA-II:** Riesgo aumentado de hipotensión severa e insuficiencia renal aguda, especialmente al inicio del tratamiento concomitante por depleción de volumen.\n\n---\n\n### Referencias Bibliográficas\n1. Brater DC. Diuretics. *N Engl J Med*. 1998;339(6):387-395. doi:10.1056/NEJM199808063390607.\n2. Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. *J Am Coll Cardiol*. 2022;79(17):e263-e421. doi:10.1016/j.jacc.2021.12.012.\n3. Felker GM, Ellison DH. Diuretic Therapy for Patients with Heart Failure: JACC State-of-the-Art Review. *J Am Coll Cardiol*. 2020;75(10):1178-1195. doi:10.1016/j.jacc.2019.12.059.\n\n---\n\n### Preguntas de Seguimiento Sugeridas\n1. ¿Cuál es el protocolo basado en evidencia para el manejo de la resistencia a la furosemida en pacientes con insuficiencia cardíaca avanzada?\n2. ¿Qué estrategias farmacológicas y de monitoreo se recomiendan al realizar la transición de furosemida intravenosa a vía oral en pacientes hospitalizados por descompensación cardíaca?",
+      "completed": true,
+      "created_at": "2026-11-03 22:05:30",
+      "published_at": "2026-11-03T22:05:30.120Z",
+      "share_token": "share-query-1793743525569",
+      "slug": "q-query-1793743525569",
+      "gen_citations": [
+        {
+          "title": "Evidence-Based Clinical Practice Guidelines",
+          "journal": "New England Journal of Medicine",
+          "year": 2024,
+          "doi": "10.1056/NEJMoa24001"
+        },
+        {
+          "title": "Systematic Review and Meta-Analysis of Clinical Outcomes",
+          "journal": "The Lancet",
+          "year": 2024,
+          "doi": "10.1016/S0140-6736(24)001"
+        }
+      ],
+      "gen_related_questions": [
+        "¿Qué criterios determinan el escalamiento terapéutico?",
+        "¿Cuáles son las principales contraindicaciones en adultos mayores?"
+      ],
+      "deep_research": false
+    },
+    {
+      "uuid": "query-1793743400548",
+      "id": "query-1793743400548",
+      "question": "furosemida",
+      "gen_answer": "### Ficha Farmacológica: Furosemida\n\nLa **furosemida** es un diurético de asa de alta potencia, derivado de las sulfonamidas, utilizado principalmente para el manejo de estados edematosos y la sobrecarga de volumen.\n\n---\n\n### 1. Mecanismo de Acción\nInhibe de forma competitiva el cotransportador $Na^+-K^+-2Cl^-$ (NKCC2) en la membrana luminal de la rama ascendente gruesa del asa de Henle. Esto reduce la reabsorción renal de sodio, potasio y cloruro, generando una pérdida masiva de agua e incrementando la excreción renal de calcio y magnesio [1].\n\n### 2. Indicaciones Clínicas Principales\n*   Edema asociado a insuficiencia cardíaca congestiva (ICC), cirrosis hepática y enfermedad renal crónica (incluyendo síndrome nefrótico).\n*   Crisis hipertensiva (particularmente en presencia de edema pulmonar agudo o disfunción renal).\n*   Manejo de la hipercalcemia grave (en combinación con rehidratación salina) [2].\n\n### 3. Farmacocinética y Dosificación\n*   **Vía Oral:** Biodisponibilidad variable (10–90% debido a absorción errática). Inicio de acción: 30–60 min; pico: 1–2 h; duración: 6–8 h.\n*   **Vía Intravenosa (IV):** Inicio de acción: 5 min; pico: 20–30 min; duración: 2 horas. *Nota:* La administración IV rápida puede causar ototoxicidad transitoria o permanente.\n*   **Dosis Habitual:**\n    *   *Oral (Adultos):* 20–80 mg/día en dosis única o dividida; ajustable hasta 600 mg/día en insuficiencia renal refractaria.\n    *   *IV (Agudo):* 20–40 mg en bolo lento; puede duplicarse cada 2 horas si es necesario.\n\n### 4. Efectos Adversos y Toxicidad\n*   **Metabólicos/Electrolíticos:** Hipocalemia, hiponatremia, hipomagnesemia, hipocalcemia, hiperuricemia (riesgo de gota) y alcalosis metabólica hipoclorémica.\n*   **Renales:** Prerrenal azotemia por depleción de volumen intravascular; nefritis intersticial aguda (rara).\n*   **Ototoxicidad:** Tinnitus y pérdida auditiva (asociada a altas velocidades de infusión IV o uso concomitante con aminoglucósidos).\n*   **Dermatológicos:** Fotosensibilidad (alerta por sulfonamidas).\n\n### 5. Interacciones Farmacológicas Relevantes\n*   **AINEs:** Reducen el efecto natriurético y diurético de la furosemida al inhibir las prostaglandinas renales, además de incrementar el riesgo de lesión renal aguda.\n*   **Nefrotóxicos (Aminoglucósidos, Anfotericina B, Cisplatino):** Potencian la nefrotoxicidad y ototoxicidad.\n*   **Litio:** Disminuye su excreción renal, incrementando el riesgo de toxicidad por litio.\n*   **Digoxina:** La hipocalemia e hipomagnesemia inducidas por furosemida aumentan drásticamente el riesgo de arritmias fatales por digoxina.\n\n---\n\n### Referencias Bibliográficas\n1.  Jackson EK. Diuretics. In: Brunton LL, Hilal-Dandan R, Knollmann BC, eds. *Goodman & Gilman's: The Pharmacological Basis of Therapeutics*. 13th ed. New York, NY: McGraw-Hill; 2017.\n2.  Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. *J Am Coll Cardiol*. 2022;79(17):e263-e421. doi:10.1016/j.jacc.2021.12.012.\n\n---\n\n### Preguntas de seguimiento sugeridas:\n1. ¿Cuál es el protocolo recomendado para la transición de furosemida intravenosa a vía oral en pacientes descompensados por insuficiencia cardíaca aguda?\n2. ¿Qué estrategias farmacológicas basadas en evidencia se recomiendan ante la aparición de resistencia a diuréticos de asa en la enfermedad renal crónica avanzada?",
+      "gen_answer_body": "### Ficha Farmacológica: Furosemida\n\nLa **furosemida** es un diurético de asa de alta potencia, derivado de las sulfonamidas, utilizado principalmente para el manejo de estados edematosos y la sobrecarga de volumen.\n\n---\n\n### 1. Mecanismo de Acción\nInhibe de forma competitiva el cotransportador $Na^+-K^+-2Cl^-$ (NKCC2) en la membrana luminal de la rama ascendente gruesa del asa de Henle. Esto reduce la reabsorción renal de sodio, potasio y cloruro, generando una pérdida masiva de agua e incrementando la excreción renal de calcio y magnesio [1].\n\n### 2. Indicaciones Clínicas Principales\n*   Edema asociado a insuficiencia cardíaca congestiva (ICC), cirrosis hepática y enfermedad renal crónica (incluyendo síndrome nefrótico).\n*   Crisis hipertensiva (particularmente en presencia de edema pulmonar agudo o disfunción renal).\n*   Manejo de la hipercalcemia grave (en combinación con rehidratación salina) [2].\n\n### 3. Farmacocinética y Dosificación\n*   **Vía Oral:** Biodisponibilidad variable (10–90% debido a absorción errática). Inicio de acción: 30–60 min; pico: 1–2 h; duración: 6–8 h.\n*   **Vía Intravenosa (IV):** Inicio de acción: 5 min; pico: 20–30 min; duración: 2 horas. *Nota:* La administración IV rápida puede causar ototoxicidad transitoria o permanente.\n*   **Dosis Habitual:**\n    *   *Oral (Adultos):* 20–80 mg/día en dosis única o dividida; ajustable hasta 600 mg/día en insuficiencia renal refractaria.\n    *   *IV (Agudo):* 20–40 mg en bolo lento; puede duplicarse cada 2 horas si es necesario.\n\n### 4. Efectos Adversos y Toxicidad\n*   **Metabólicos/Electrolíticos:** Hipocalemia, hiponatremia, hipomagnesemia, hipocalcemia, hiperuricemia (riesgo de gota) y alcalosis metabólica hipoclorémica.\n*   **Renales:** Prerrenal azotemia por depleción de volumen intravascular; nefritis intersticial aguda (rara).\n*   **Ototoxicidad:** Tinnitus y pérdida auditiva (asociada a altas velocidades de infusión IV o uso concomitante con aminoglucósidos).\n*   **Dermatológicos:** Fotosensibilidad (alerta por sulfonamidas).\n\n### 5. Interacciones Farmacológicas Relevantes\n*   **AINEs:** Reducen el efecto natriurético y diurético de la furosemida al inhibir las prostaglandinas renales, además de incrementar el riesgo de lesión renal aguda.\n*   **Nefrotóxicos (Aminoglucósidos, Anfotericina B, Cisplatino):** Potencian la nefrotoxicidad y ototoxicidad.\n*   **Litio:** Disminuye su excreción renal, incrementando el riesgo de toxicidad por litio.\n*   **Digoxina:** La hipocalemia e hipomagnesemia inducidas por furosemida aumentan drásticamente el riesgo de arritmias fatales por digoxina.\n\n---\n\n### Referencias Bibliográficas\n1.  Jackson EK. Diuretics. In: Brunton LL, Hilal-Dandan R, Knollmann BC, eds. *Goodman & Gilman's: The Pharmacological Basis of Therapeutics*. 13th ed. New York, NY: McGraw-Hill; 2017.\n2.  Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. *J Am Coll Cardiol*. 2022;79(17):e263-e421. doi:10.1016/j.jacc.2021.12.012.\n\n---\n\n### Preguntas de seguimiento sugeridas:\n1. ¿Cuál es el protocolo recomendado para la transición de furosemida intravenosa a vía oral en pacientes descompensados por insuficiencia cardíaca aguda?\n2. ¿Qué estrategias farmacológicas basadas en evidencia se recomiendan ante la aparición de resistencia a diuréticos de asa en la enfermedad renal crónica avanzada?",
+      "completed": true,
+      "created_at": "2026-11-03 22:03:24",
+      "published_at": "2026-11-03T22:03:24.281Z",
+      "share_token": "share-query-1793743400548",
+      "slug": "q-query-1793743400548",
+      "gen_citations": [
+        {
+          "title": "Evidence-Based Clinical Practice Guidelines",
+          "journal": "New England Journal of Medicine",
+          "year": 2024,
+          "doi": "10.1056/NEJMoa24001"
+        },
+        {
+          "title": "Systematic Review and Meta-Analysis of Clinical Outcomes",
+          "journal": "The Lancet",
+          "year": 2024,
+          "doi": "10.1016/S0140-6736(24)001"
+        }
+      ],
+      "gen_related_questions": [
+        "¿Qué criterios determinan el escalamiento terapéutico?",
+        "¿Cuáles son las principales contraindicaciones en adultos mayores?"
+      ],
+      "deep_research": false
+    },
+    {
+      "uuid": "query-1793743206131",
+      "id": "query-1793743206131",
+      "question": "¿Cuál es la dosis de inicio y titulación de semaglutida en diabetes tipo 2?",
+      "gen_answer": "### Evidencia y Deep Research de Itaca\n**Módulo:** Endocrinología y Metabolismo  \n**Tema:** Esquema de inicio y titulación de semaglutida en Diabetes Mellitus Tipo 2 (DMT2)\n\n---\n\n### Dosis de Inicio y Titulación de Semaglutida en DMT2\n\nEl esquema de administración de semaglutida (agonista del receptor del péptido similar al glucagón tipo 1 [AR-GLP-1]) varía según la vía de administración (subcutánea u oral). Su titulación escalonada tiene como objetivo minimizar los efectos adversos gastrointestinales (principalmente náuseas, vómitos y diarrea) y mejorar la tolerabilidad.\n\n#### 1. Semaglutida Subcutánea (Semanal)\n* **Dosis de inicio:** $0.25\\text{ mg}$ por vía subcutánea una vez por semana durante **4 semanas**. Esta dosis es un nivel de iniciación y no está destinada al control glucémico eficaz.\n* **Primera titulación:** A las 4 semanas, incrementar a **$0.5\\text{ mg}$** una vez por semana. \n* **Segunda titulación (si se requiere control glucémico adicional):** Tras al menos 4 semanas con la dosis de $0.5\\text{ mg}$, la dosis puede aumentarse a **$1.0\\text{ mg}$** una vez por semana.\n* **Titulación máxima:** Si se requiere un control glucémico adicional tras al menos 4 semanas con la dosis de $1.0\\text{ mg}$, se puede incrementar a la dosis máxima de **$2.0\\text{ mg}$** una vez por semana.\n* **Dosis máxima recomendada:** $2\\text{ mg}$ semanales (según guías de práctica clínica y ensayos SUSTAIN) [1, 2].\n\n#### 2. Semaglutida Oral (Diaria)\n* **Dosis de inicio:** $3\\text{ mg}$ por vía oral una vez al día durante **30 días**. Al igual que la vía subcutánea, esta dosis inicial no está diseñada para el control glucémico primario.\n* **Primera titulación:** Después de 30 días, incrementar a **$7\\text{ mg}$** una vez al día.\n* **Segunda titulación (si se requiere control glucémico adicional):** Tras al menos 30 días con la dosis de $7\\text{ mg}$, la dosis puede aumentarse a **$14\\text{ mg}$** una vez al día.\n* **Dosis máxima recomendada:** $14\\text{ mg}$ diarios (según ensayos PIONEER) [3].\n\n> **Nota clínica:** Si se omite una dosis, esta debe administrarse tan pronto como sea posible dentro de los 5 días posteriores (en el caso de la semanal) o se debe omitir la dosis del día (en el caso de la oral), retomando el esquema habitual. \n\n---\n\n### Referencias Bibliográficas\n\n1. **Davies, M., et al.** (2021). *Semaglutide 2.4 mg once a week in adults with overweight or obesity, and type 2 diabetes (STEP 2): a randomised, double-blind, double-dummy, placebo-controlled, phase 3 trial*. The Lancet, 397(10278), 971-984.\n2. **Marso, S. P., et al.** (2016). *Semaglutide and cardiovascular outcomes in patients with type 2 diabetes*. New England Journal of Medicine, 375(19), 1834-1844.\n3. **Aroda, V. R., et al.** (2019). *Efficacy and safety of once-daily oral semaglutide versus once-weekly exenatide extended release in type 2 diabetes (PIONEER 3): a randomised, open-label, phase 3a trial*. The Lancet Diabetes & Endocrinology, 7(5), 381-394.\n\n---\n\n### Preguntas de Seguimiento Clínico\n\n1. ¿Qué estrategias farmacológicas o dietéticas recomienda el equipo médico para mitigar los efectos secundarios gastrointestinales durante las primeras fases de la titulación de semaglutida?\n2. En pacientes con DMT2 y enfermedad renal crónica establecida (TFGc reducida), ¿se requiere un ajuste en el esquema estándar de inicio o titulación de semaglutida?",
+      "gen_answer_body": "### Evidencia y Deep Research de Itaca\n**Módulo:** Endocrinología y Metabolismo  \n**Tema:** Esquema de inicio y titulación de semaglutida en Diabetes Mellitus Tipo 2 (DMT2)\n\n---\n\n### Dosis de Inicio y Titulación de Semaglutida en DMT2\n\nEl esquema de administración de semaglutida (agonista del receptor del péptido similar al glucagón tipo 1 [AR-GLP-1]) varía según la vía de administración (subcutánea u oral). Su titulación escalonada tiene como objetivo minimizar los efectos adversos gastrointestinales (principalmente náuseas, vómitos y diarrea) y mejorar la tolerabilidad.\n\n#### 1. Semaglutida Subcutánea (Semanal)\n* **Dosis de inicio:** $0.25\\text{ mg}$ por vía subcutánea una vez por semana durante **4 semanas**. Esta dosis es un nivel de iniciación y no está destinada al control glucémico eficaz.\n* **Primera titulación:** A las 4 semanas, incrementar a **$0.5\\text{ mg}$** una vez por semana. \n* **Segunda titulación (si se requiere control glucémico adicional):** Tras al menos 4 semanas con la dosis de $0.5\\text{ mg}$, la dosis puede aumentarse a **$1.0\\text{ mg}$** una vez por semana.\n* **Titulación máxima:** Si se requiere un control glucémico adicional tras al menos 4 semanas con la dosis de $1.0\\text{ mg}$, se puede incrementar a la dosis máxima de **$2.0\\text{ mg}$** una vez por semana.\n* **Dosis máxima recomendada:** $2\\text{ mg}$ semanales (según guías de práctica clínica y ensayos SUSTAIN) [1, 2].\n\n#### 2. Semaglutida Oral (Diaria)\n* **Dosis de inicio:** $3\\text{ mg}$ por vía oral una vez al día durante **30 días**. Al igual que la vía subcutánea, esta dosis inicial no está diseñada para el control glucémico primario.\n* **Primera titulación:** Después de 30 días, incrementar a **$7\\text{ mg}$** una vez al día.\n* **Segunda titulación (si se requiere control glucémico adicional):** Tras al menos 30 días con la dosis de $7\\text{ mg}$, la dosis puede aumentarse a **$14\\text{ mg}$** una vez al día.\n* **Dosis máxima recomendada:** $14\\text{ mg}$ diarios (según ensayos PIONEER) [3].\n\n> **Nota clínica:** Si se omite una dosis, esta debe administrarse tan pronto como sea posible dentro de los 5 días posteriores (en el caso de la semanal) o se debe omitir la dosis del día (en el caso de la oral), retomando el esquema habitual. \n\n---\n\n### Referencias Bibliográficas\n\n1. **Davies, M., et al.** (2021). *Semaglutide 2.4 mg once a week in adults with overweight or obesity, and type 2 diabetes (STEP 2): a randomised, double-blind, double-dummy, placebo-controlled, phase 3 trial*. The Lancet, 397(10278), 971-984.\n2. **Marso, S. P., et al.** (2016). *Semaglutide and cardiovascular outcomes in patients with type 2 diabetes*. New England Journal of Medicine, 375(19), 1834-1844.\n3. **Aroda, V. R., et al.** (2019). *Efficacy and safety of once-daily oral semaglutide versus once-weekly exenatide extended release in type 2 diabetes (PIONEER 3): a randomised, open-label, phase 3a trial*. The Lancet Diabetes & Endocrinology, 7(5), 381-394.\n\n---\n\n### Preguntas de Seguimiento Clínico\n\n1. ¿Qué estrategias farmacológicas o dietéticas recomienda el equipo médico para mitigar los efectos secundarios gastrointestinales durante las primeras fases de la titulación de semaglutida?\n2. En pacientes con DMT2 y enfermedad renal crónica establecida (TFGc reducida), ¿se requiere un ajuste en el esquema estándar de inicio o titulación de semaglutida?",
+      "completed": true,
+      "created_at": "2026-11-03 22:00:09",
+      "published_at": "2026-11-03T22:00:09.488Z",
+      "share_token": "share-query-1793743206131",
+      "slug": "q-query-1793743206131",
+      "gen_citations": [
+        {
+          "title": "Evidence-Based Clinical Practice Guidelines",
+          "journal": "New England Journal of Medicine",
+          "year": 2024,
+          "doi": "10.1056/NEJMoa24001"
+        },
+        {
+          "title": "Systematic Review and Meta-Analysis of Clinical Outcomes",
+          "journal": "The Lancet",
+          "year": 2024,
+          "doi": "10.1016/S0140-6736(24)001"
+        }
+      ],
+      "gen_related_questions": [
+        "¿Qué criterios determinan el escalamiento terapéutico?",
+        "¿Cuáles son las principales contraindicaciones en adultos mayores?"
+      ],
+      "deep_research": false
+    },
+    {
+      "uuid": "q1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "id": "q1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "question": "¿Cuál es la meta de presión arterial en adultos con diabetes mellitus según las guías KDIGO y ADA?",
+      "gen_answer": "### Abordaje Clínico Basado en Evidencia: Metas Tensionales en Diabetes Mellitus\n\n#### 1. Recomendaciones de Guías Internacionales\n- **KDIGO (2023-2024):** Recomienda una meta de **Presión Arterial Sistólica < 120 mmHg** en pacientes adultos con diabetes y ERC concomitante, cuando se mide de forma estandarizada en consultorio, siempre que sea tolerada sin hipotensión sintomática.\n- **ADA Standards of Care (2024):** Establece como objetivo general una presión arterial **< 130/80 mmHg** para la gran mayoría de adultos con diabetes mellitus e hipertensión arterial, reduciendo el riesgo de morbimortalidad cardiovascular y progresión de retinopatía/nefropatía.\n\n#### 2. Selección Farmacológica de Primera Línea\nEn presencia de albuminuria persistente (Cociente Albúmina/Creatinina ≥ 30 mg/g):\n1. **Inhibidores del Sistema Renina-Angiotensina (IECA o ARA-II):** Son el pilar obligatorio por su efecto nefroprotector hemodinámico probado.\n2. **Calcioantagonistas dihidropiridínicos (ej. Amlodipino):** Excelente terapia combinada sinérgica.\n3. **Diuréticos tipo tiazida o tiazídicos-like (Clortalidona / Indapamida):** Recomendados especialmente si se requiere un tercer agente.\n\n#### 3. Monitoreo Clínico y Seguridad\n- Evaluar función renal basal (creatinina sérica, eGFR) y electrolitos plasmáticos (potasio) a las 2 a 4 semanas del inicio o titulación de IECA/ARA-II.\n- Promover el Automonitoreo de Presión Arterial (AMPA) en domicilio para descartar hipertensión de bata blanca.",
+      "gen_answer_body": "### Abordaje Clínico Basado en Evidencia: Metas Tensionales en Diabetes Mellitus\n\n#### 1. Recomendaciones de Guías Internacionales\n- **KDIGO (2023-2024):** Recomienda una meta de **Presión Arterial Sistólica < 120 mmHg** en pacientes adultos con diabetes y ERC concomitante, cuando se mide de forma estandarizada en consultorio, siempre que sea tolerada sin hipotensión sintomática.\n- **ADA Standards of Care (2024):** Establece como objetivo general una presión arterial **< 130/80 mmHg** para la gran mayoría de adultos con diabetes mellitus e hipertensión arterial, reduciendo el riesgo de morbimortalidad cardiovascular y progresión de retinopatía/nefropatía.\n\n#### 2. Selección Farmacológica de Primera Línea\nEn presencia de albuminuria persistente (Cociente Albúmina/Creatinina ≥ 30 mg/g):\n1. **Inhibidores del Sistema Renina-Angiotensina (IECA o ARA-II):** Son el pilar obligatorio por su efecto nefroprotector hemodinámico probado.\n2. **Calcioantagonistas dihidropiridínicos (ej. Amlodipino):** Excelente terapia combinada sinérgica.\n3. **Diuréticos tipo tiazida o tiazídicos-like (Clortalidona / Indapamida):** Recomendados especialmente si se requiere un tercer agente.\n\n#### 3. Monitoreo Clínico y Seguridad\n- Evaluar función renal basal (creatinina sérica, eGFR) y electrolitos plasmáticos (potasio) a las 2 a 4 semanas del inicio o titulación de IECA/ARA-II.\n- Promover el Automonitoreo de Presión Arterial (AMPA) en domicilio para descartar hipertensión de bata blanca.",
+      "completed": true,
+      "created_at": "2026-11-03 12:00:00",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "share_token": "share-kdigo-ada-bp",
+      "slug": "meta-presion-arterial-diabetes-kdigo-ada",
+      "gen_citations": [
+        {
+          "title": "KDIGO 2023 Clinical Practice Guideline for the Management of Blood Pressure in Chronic Kidney Disease",
+          "journal": "Kidney International",
+          "year": 2023,
+          "doi": "10.1016/j.kint.2023.01.002"
+        },
+        {
+          "title": "American Diabetes Association: Standards of Care in Diabetes—Cardiovascular Disease and Risk Management",
+          "journal": "Diabetes Care",
+          "year": 2024,
+          "doi": "10.2337/dc24-S010"
+        }
+      ],
+      "gen_related_questions": [
+        "¿Cuándo se debe suspender o ajustar el IECA/ARA-II ante elevación de creatinina sérica?",
+        "¿Cuál es el rol de los inhibidores de SGLT2 combinados con antihipertensivos en protección renal?"
+      ],
+      "deep_research": false
+    }
+  ],
+  "documents": [
+    {
+      "uuid": "doc-diag-pedro-01",
+      "id": "doc-diag-pedro-01",
+      "doc_type": "diagnostic_order",
+      "document_type": "diagnostic_order",
+      "gen_title": "Orden de estudios",
+      "title": "Orden de estudios",
+      "completed": true,
+      "completed_at": "2026-11-04T19:10:31.078Z",
+      "created_at": "2026-11-04T19:10:31.080Z",
+      "patient_uuid": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "patient_id": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "patient": {
+        "uuid": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+        "id": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+        "first_name": "pedro",
+        "last_name": "suarez",
+        "full_name": "pedro suarez",
+        "name": "pedro suarez",
+        "dob": "1988-05-12",
+        "gender": "male",
+        "phone": "+52 55 1234 5678",
+        "mobile_number": "+52 55 1234 5678",
+        "email": "pedro.suarez@ejemplo.com",
+        "age": "38",
+        "location": "Consultorio",
+        "coverage_name": "Particular",
+        "completed_sessions_count": 1,
+        "completed_documents_count": 6,
+        "created_at": "2026-11-03T10:00:00.000Z",
+        "items": [
+          {
+            "name": "furosemida",
+            "dosage": "20mg",
+            "instructions": "1 cada 12h",
+            "stopped_at": null
+          },
+          {
+            "uuid": "med-1",
+            "name": "metoclopramida",
+            "dosage": "10mg",
+            "instructions": "10 mg • Tomar cada 12 horas",
+            "stopped_at": null
+          },
+          {
+            "id": "med-1793815409192-mm9v",
+            "name": "cualquier reaccion llamar al 4535303820",
+            "dosage": "",
+            "presentation": "",
+            "instructions": "",
+            "frequency": "",
+            "status": "ongoing",
+            "stopped_at": null
+          }
+        ],
+        "fullName": "pedro suarez",
+        "mobileNumber": "+52 55 1234 5678"
+      },
+      "language": "es",
+      "order_package_uuids": [
+        "pkg-hepatica",
+        "pkg-anemia"
+      ],
+      "order_package_item_exclusions": {},
+      "diagnostic_order": {
+        "uuid": "diag-sample-01",
+        "id": "diag-sample-01",
+        "order_items": [
+          {
+            "position": 1,
+            "code": "",
+            "name": "AST",
+            "indications": ""
+          },
+          {
+            "position": 2,
+            "code": "",
+            "name": "ALT",
+            "indications": ""
+          },
+          {
+            "position": 3,
+            "code": "",
+            "name": "Fosfatasa alcalina",
+            "indications": ""
+          },
+          {
+            "position": 4,
+            "code": "",
+            "name": "Bilirrubina",
+            "indications": ""
+          },
+          {
+            "position": 5,
+            "code": "",
+            "name": "Albúmina",
+            "indications": ""
+          },
+          {
+            "position": 6,
+            "code": "",
+            "name": "TP/INR",
+            "indications": "Informar uso de anticoagulantes"
+          },
+          {
+            "position": 7,
+            "code": "",
+            "name": "Biometría hemática",
+            "indications": ""
+          },
+          {
+            "position": 8,
+            "code": "",
+            "name": "Ferritina",
+            "indications": ""
+          },
+          {
+            "position": 9,
+            "code": "",
+            "name": "Hierro/TIBC o saturación de transferrina",
+            "indications": "Ayuno de 8 horas; muestra matutina"
+          },
+          {
+            "position": 10,
+            "code": "",
+            "name": "Vitamina B12",
+            "indications": ""
+          },
+          {
+            "position": 11,
+            "code": "",
+            "name": "Folato",
+            "indications": ""
+          }
+        ],
+        "order_groups": [
+          {
+            "title": "Evaluación hepática",
+            "item_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "instructions": [],
+            "source_metadata": {
+              "source": "order_package",
+              "package_uuid": "pkg-hepatica"
+            }
+          },
+          {
+            "title": "Anemia / fatiga básico",
+            "item_positions": [
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "instructions": [],
+            "source_metadata": {
+              "source": "order_package",
+              "package_uuid": "pkg-anemia"
+            }
+          }
+        ],
+        "general_instructions": [
+          "Presentarse en ayuno mínimo de 8 horas para toma de muestras séricas.",
+          "Informar al laboratorio si consume medicamentos anticoagulantes.",
+          "Entregar esta orden en la recepción del laboratorio clínico."
+        ]
+      }
+    },
+    {
+      "uuid": "doc-1793818483928",
+      "id": "doc-1793818483928",
+      "doc_type": "diagnostic_order",
+      "document_type": "diagnostic_order",
+      "gen_title": "Orden de estudios",
+      "title": "Orden de estudios",
+      "content": "Orden de estudios de diagnóstico generada.",
+      "user_body": "",
+      "gen_body": "",
+      "completed": true,
+      "completed_at": "2026-11-04T18:54:43.929Z",
+      "created_at": "2026-11-04T18:54:43.929Z",
+      "patient_uuid": "p-1793818446314",
+      "patient_id": "p-1793818446314",
+      "patient": {
+        "uuid": "p-1793818446314",
+        "id": "p-1793818446314",
+        "first_name": "raul",
+        "last_name": "ortega",
+        "full_name": "raul ortega",
+        "name": "raul ortega",
+        "dob": "1985-01-01",
+        "gender": "unspecified",
+        "phone": "",
+        "mobile_number": "",
+        "email": "",
+        "national_id": "",
+        "age": "",
+        "location": "Consultorio",
+        "tags": [],
+        "coverage_name": "Particular",
+        "coverage_member_id": "",
+        "emergency_contact_name": "",
+        "emergency_contact_phone": "",
+        "comments": "",
+        "civil_status": "",
+        "occupation": "",
+        "religion": "",
+        "weight": "",
+        "height": "",
+        "blood_type": "",
+        "bmi": "",
+        "completed_sessions_count": 0,
+        "completed_calls_count": 0,
+        "completed_documents_count": 0,
+        "completed_questionnaires_count": 0,
+        "created_at": "2026-11-04T18:54:06.314Z",
+        "items": [
+          {
+            "id": "med-p-1793818446314",
+            "name": "metoclopramida",
+            "dosage": "10mg",
+            "presentation": "10mg",
+            "frequency": "c/12h",
+            "instructions": "10 mg • Tomar cada 12 horas",
+            "status": "ongoing",
+            "stopped_at": null
+          }
+        ],
+        "fullName": "raul ortega",
+        "mobileNumber": ""
+      },
+      "language": "es",
+      "details": "",
+      "order_package_uuids": [
+        "pkg-checkup-general"
+      ],
+      "order_package_item_exclusions": {},
+      "prescription": null,
+      "diagnostic_order": {
+        "uuid": "diag-1793818483929",
+        "id": "diag-1793818483929",
+        "order_items": [
+          {
+            "uuid": "item-chk-1",
+            "position": 1,
+            "code": "",
+            "name": "Biometría hemática completa",
+            "indications": ""
+          },
+          {
+            "uuid": "item-chk-2",
+            "position": 2,
+            "code": "",
+            "name": "Química sanguínea integral",
+            "indications": "Ayuno de 8 a 12 horas"
+          },
+          {
+            "uuid": "item-chk-3",
+            "position": 3,
+            "code": "",
+            "name": "Perfil de lípidos",
+            "indications": "Ayuno de 12 horas"
+          },
+          {
+            "uuid": "item-chk-4",
+            "position": 4,
+            "code": "",
+            "name": "Examen general de orina (EGO)",
+            "indications": "Primera orina de la mañana"
+          },
+          {
+            "uuid": "item-chk-5",
+            "position": 5,
+            "code": "",
+            "name": "Perfil tiroideo básico (TSH, T4L)",
+            "indications": ""
+          },
+          {
+            "uuid": "item-chk-6",
+            "position": 6,
+            "code": "",
+            "name": "Sangre oculta en heces (inmunológica)",
+            "indications": "Sin restricciones dietéticas previas"
+          },
+          {
+            "uuid": "item-chk-7",
+            "position": 7,
+            "code": "",
+            "name": "Radiografía de tórax (PA)",
+            "indications": "Sin accesorios metálicos"
+          }
+        ],
+        "order_groups": [
+          {
+            "title": "Check-up general preventivo",
+            "item_positions": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "instructions": [
+              "Ayuno de 8 a 12 horas. Muestra de orina matutina."
+            ],
+            "source_metadata": {
+              "source": "order_package",
+              "package_uuid": "pkg-checkup-general"
+            }
+          }
+        ],
+        "general_instructions": [
+          "Presentarse en ayuno según las especificaciones de cada estudio.",
+          "Informar al personal de laboratorio si consume medicamentos de manera crónica o anticoagulantes.",
+          "Acudir con ropa cómoda y sin objetos metálicos en caso de estudios de imagen."
+        ]
+      }
+    },
+    {
+      "uuid": "doc-1793815446051",
+      "id": "doc-1793815446051",
+      "doc_type": "prescription",
+      "document_type": "prescription",
+      "gen_title": "Receta médica",
+      "title": "Receta médica",
+      "content": "Contenido del documento generado.",
+      "user_body": "",
+      "gen_body": "",
+      "completed": true,
+      "completed_at": "2026-11-04T18:04:06.051Z",
+      "created_at": "2026-11-04T18:04:06.051Z",
+      "patient_uuid": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "patient_id": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "patient": {
+        "uuid": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+        "id": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+        "first_name": "pedro",
+        "last_name": "suarez",
+        "full_name": "pedro suarez",
+        "name": "pedro suarez",
+        "dob": "1988-05-12",
+        "gender": "male",
+        "phone": "+52 55 1234 5678",
+        "mobile_number": "+52 55 1234 5678",
+        "email": "pedro.suarez@ejemplo.com",
+        "age": "38",
+        "location": "Consultorio",
+        "coverage_name": "Particular",
+        "completed_sessions_count": 1,
+        "completed_documents_count": 4,
+        "created_at": "2026-11-03T10:00:00.000Z",
+        "items": [
+          {
+            "name": "furosemida",
+            "dosage": "20mg",
+            "instructions": "1 cada 12h",
+            "stopped_at": null
+          },
+          {
+            "uuid": "med-1",
+            "name": "metoclopramida",
+            "dosage": "10mg",
+            "instructions": "10 mg • Tomar cada 12 horas",
+            "stopped_at": null
+          },
+          {
+            "id": "med-1793815409192-mm9v",
+            "name": "cualquier reaccion llamar al 4535303820",
+            "dosage": "",
+            "presentation": "",
+            "instructions": "",
+            "frequency": "",
+            "status": "ongoing",
+            "stopped_at": null
+          }
+        ],
+        "fullName": "pedro suarez",
+        "mobileNumber": "+52 55 1234 5678"
+      },
+      "language": "es",
+      "prescription": {
+        "uuid": "rx-1793815446051",
+        "id": "rx-1793815446051",
+        "prescription_lines": [
+          {
+            "position": 1,
+            "name": "furosemida",
+            "dose": "20mg",
+            "presentation": "20mg",
+            "instructions": "1 cada 12h",
+            "duration": "",
+            "dispense_quantity": ""
+          },
+          {
+            "position": 2,
+            "name": "metoclopramida",
+            "dose": "10mg",
+            "presentation": "10mg",
+            "instructions": "10 mg • Tomar cada 12 horas",
+            "duration": "",
+            "dispense_quantity": ""
+          }
+        ],
+        "general_instructions": [
+          "Siga exactamente las indicaciones del profesional tratante.",
+          "No suspenda ni modifique el tratamiento sin indicación médica."
+        ]
+      }
+    },
+    {
+      "uuid": "9a3689af-45e0-4e8b-8afd-73edc6c1fc06",
+      "id": "9a3689af-45e0-4e8b-8afd-73edc6c1fc06",
+      "title": "Receta médica",
+      "gen_title": "Receta médica",
+      "doc_type": "prescription",
+      "document_type": "prescription",
+      "completed": true,
+      "completed_at": "2026-11-04T10:50:00.000Z",
+      "created_at": "2026-11-04T10:50:00.000Z",
+      "patient_uuid": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "patient_id": "8435b424-f10f-4fef-8e82-ab0b4c20735a",
+      "language": "es",
+      "prescription": {
+        "uuid": "9a3689af-45e0-4e8b-8afd-73edc6c1fc06",
+        "id": "9a3689af-45e0-4e8b-8afd-73edc6c1fc06",
+        "prescription_lines": [
+          {
+            "position": 1,
+            "name": "metoclopramida",
+            "dose": "10mg",
+            "presentation": "10mg",
+            "instructions": "10 mg • Tomar cada 12 horas",
+            "duration": "",
+            "dispense_quantity": ""
+          }
+        ],
+        "general_instructions": [
+          "Siga exactamente las indicaciones del profesional tratante.",
+          "No suspenda ni modifique el tratamiento sin indicación médica."
+        ]
+      }
+    },
+    {
+      "uuid": "d1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "id": "d1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "title": "Resumen Clínico para Referencia a Nefrología",
+      "document_type": "referral_letter",
+      "created_at": "2026-11-02T11:00:00.000Z",
+      "patient_id": "a1b2c3d4-e5f6-4a1b-8c2d-3e4f5a6b7c8d",
+      "patient_name": "María González López",
+      "content": "Estimado colega: Se remite a paciente femenina de 48 años con antecedente de DM2 de 8 años de evolución para valoración conjunta y optimización de manejo nefroprotector."
+    }
+  ],
+  "calls": [],
+  "invites": [],
+  "order_packages": [
+    {
+      "uuid": "pkg-preoperatorio",
+      "id": "pkg-preoperatorio",
+      "name": "Preoperatorio básico",
+      "instructions": "Ayuno de 8 a 12 horas. Acudir con ropa cómoda.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-pre-1",
+          "position": 1,
+          "code": "",
+          "name": "Biometría hemática completa",
+          "indications": ""
+        },
+        {
+          "uuid": "item-pre-2",
+          "position": 2,
+          "code": "",
+          "name": "Química sanguínea (Glucosa, Urea, Creatinina)",
+          "indications": "Ayuno de 8 a 12 horas"
+        },
+        {
+          "uuid": "item-pre-3",
+          "position": 3,
+          "code": "",
+          "name": "Tiempos de coagulación (TP, TTP, INR)",
+          "indications": "Informar uso de anticoagulantes"
+        },
+        {
+          "uuid": "item-pre-4",
+          "position": 4,
+          "code": "",
+          "name": "Examen general de orina (EGO)",
+          "indications": "Primera orina de la mañana"
+        },
+        {
+          "uuid": "item-pre-5",
+          "position": 5,
+          "code": "",
+          "name": "Grupo sanguíneo y factor Rh",
+          "indications": ""
+        },
+        {
+          "uuid": "item-pre-6",
+          "position": 6,
+          "code": "",
+          "name": "Electrocardiograma en reposo",
+          "indications": "Acudir con ropa cómoda de dos piezas"
+        },
+        {
+          "uuid": "item-pre-7",
+          "position": 7,
+          "code": "",
+          "name": "Telerradiografía de tórax (PA)",
+          "indications": "Sin objetos metálicos"
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-prenatal",
+      "id": "pkg-prenatal",
+      "name": "Laboratorios prenatales iniciales",
+      "instructions": "Ayuno de 8 a 10 horas. Muestra de orina con aseo previo.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-pna-1",
+          "position": 1,
+          "code": "",
+          "name": "Biometría hemática completa",
+          "indications": ""
+        },
+        {
+          "uuid": "item-pna-2",
+          "position": 2,
+          "code": "",
+          "name": "Grupo sanguíneo y factor Rh",
+          "indications": ""
+        },
+        {
+          "uuid": "item-pna-3",
+          "position": 3,
+          "code": "",
+          "name": "Glucosa en ayuno",
+          "indications": "Ayuno de 8 a 10 horas"
+        },
+        {
+          "uuid": "item-pna-4",
+          "position": 4,
+          "code": "",
+          "name": "Examen general de orina y Urocultivo",
+          "indications": "Muestra de chorro medio, previo aseo"
+        },
+        {
+          "uuid": "item-pna-5",
+          "position": 5,
+          "code": "",
+          "name": "VDRL / RPR (Sífilis)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-pna-6",
+          "position": 6,
+          "code": "",
+          "name": "Prueba rápida combinada VIH (Ag p24 / Ac)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-pna-7",
+          "position": 7,
+          "code": "",
+          "name": "Anticuerpos contra Rubéola IgG/IgM",
+          "indications": ""
+        },
+        {
+          "uuid": "item-pna-8",
+          "position": 8,
+          "code": "",
+          "name": "Antígeno de superficie Hepatitis B (HBsAg)",
+          "indications": ""
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-its",
+      "id": "pkg-its",
+      "name": "Tamizaje básico de ITS",
+      "instructions": "Sin aseo genital excesivo antes de la toma de muestras locales.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-its-1",
+          "position": 1,
+          "code": "",
+          "name": "VDRL / RPR (Sífilis)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-its-2",
+          "position": 2,
+          "code": "",
+          "name": "Prueba combinada VIH (Ag p24 + Ac 1/2)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-its-3",
+          "position": 3,
+          "code": "",
+          "name": "Serología Hepatitis B (HBsAg, Anti-HBc)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-its-4",
+          "position": 4,
+          "code": "",
+          "name": "Serología Hepatitis C (Anti-HCV)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-its-5",
+          "position": 5,
+          "code": "",
+          "name": "PCR Chlamydia trachomatis / Neisseria gonorrhoeae",
+          "indications": "No haber orinado 2 horas antes de la toma"
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-anemia",
+      "id": "pkg-anemia",
+      "name": "Anemia / fatiga básico",
+      "instructions": "Ayuno de 8 horas; muestra matutina para cinética de hierro",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-ane-1",
+          "position": 1,
+          "code": "",
+          "name": "Biometría hemática",
+          "indications": ""
+        },
+        {
+          "uuid": "item-ane-2",
+          "position": 2,
+          "code": "",
+          "name": "Ferritina",
+          "indications": ""
+        },
+        {
+          "uuid": "item-ane-3",
+          "position": 3,
+          "code": "",
+          "name": "Hierro/TIBC o saturación de transferrina",
+          "indications": "Ayuno de 8 horas; muestra matutina"
+        },
+        {
+          "uuid": "item-ane-4",
+          "position": 4,
+          "code": "",
+          "name": "Vitamina B12",
+          "indications": ""
+        },
+        {
+          "uuid": "item-ane-5",
+          "position": 5,
+          "code": "",
+          "name": "Folato",
+          "indications": ""
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-tiroides",
+      "id": "pkg-tiroides",
+      "name": "Tiroides básico",
+      "instructions": "Muestra matutina en ayuno. No tomar levotiroxina previo a la extracción.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-tir-1",
+          "position": 1,
+          "code": "",
+          "name": "TSH ultrasensible",
+          "indications": "Muestra matutina en ayuno"
+        },
+        {
+          "uuid": "item-tir-2",
+          "position": 2,
+          "code": "",
+          "name": "T4 Libre",
+          "indications": ""
+        },
+        {
+          "uuid": "item-tir-3",
+          "position": 3,
+          "code": "",
+          "name": "T3 Total",
+          "indications": ""
+        },
+        {
+          "uuid": "item-tir-4",
+          "position": 4,
+          "code": "",
+          "name": "T3 Libre",
+          "indications": ""
+        },
+        {
+          "uuid": "item-tir-5",
+          "position": 5,
+          "code": "",
+          "name": "Anticuerpos anti-TPO",
+          "indications": ""
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-hepatica",
+      "id": "pkg-hepatica",
+      "name": "Evaluación hepática",
+      "instructions": "Informar uso de anticoagulantes o fármacos hepatotóxicos",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-hep-1",
+          "position": 1,
+          "code": "",
+          "name": "AST",
+          "indications": ""
+        },
+        {
+          "uuid": "item-hep-2",
+          "position": 2,
+          "code": "",
+          "name": "ALT",
+          "indications": ""
+        },
+        {
+          "uuid": "item-hep-3",
+          "position": 3,
+          "code": "",
+          "name": "Fosfatasa alcalina",
+          "indications": ""
+        },
+        {
+          "uuid": "item-hep-4",
+          "position": 4,
+          "code": "",
+          "name": "Bilirrubina",
+          "indications": ""
+        },
+        {
+          "uuid": "item-hep-5",
+          "position": 5,
+          "code": "",
+          "name": "Albúmina",
+          "indications": ""
+        },
+        {
+          "uuid": "item-hep-6",
+          "position": 6,
+          "code": "",
+          "name": "TP/INR",
+          "indications": "Informar uso de anticoagulantes"
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-renal",
+      "id": "pkg-renal",
+      "name": "Evaluación renal",
+      "instructions": "Muestra de orina matutina o recolección de 24 horas según indicación.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-ren-1",
+          "position": 1,
+          "code": "",
+          "name": "Química sanguínea (Urea, BUN, Creatinina, Ácido úrico)",
+          "indications": "Ayuno de 8 horas"
+        },
+        {
+          "uuid": "item-ren-2",
+          "position": 2,
+          "code": "",
+          "name": "Electrólitos séricos (Sodio, Potasio, Cloro)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-ren-3",
+          "position": 3,
+          "code": "",
+          "name": "Relación albúmina / creatinina en orina (RAC)",
+          "indications": "Primera orina de la mañana"
+        },
+        {
+          "uuid": "item-ren-4",
+          "position": 4,
+          "code": "",
+          "name": "Examen general de orina (EGO)",
+          "indications": "Muestra matutina"
+        },
+        {
+          "uuid": "item-ren-5",
+          "position": 5,
+          "code": "",
+          "name": "Depuración de creatinina en orina de 24 horas",
+          "indications": "Recolectar orina durante 24 horas continuas"
+        },
+        {
+          "uuid": "item-ren-6",
+          "position": 6,
+          "code": "",
+          "name": "Ultrasonido renal y vías urinarias",
+          "indications": "Vejiga llena, beber 1 L de agua 1 h antes"
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-diabetes",
+      "id": "pkg-diabetes",
+      "name": "Seguimiento de diabetes",
+      "instructions": "Ayuno de 8 a 12 horas para glucosa y lípidos. No suspender medicación habitual salvo indicación.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-dia-1",
+          "position": 1,
+          "code": "",
+          "name": "Hemoglobina glucosilada (HbA1c)",
+          "indications": "No requiere ayuno estricto"
+        },
+        {
+          "uuid": "item-dia-2",
+          "position": 2,
+          "code": "",
+          "name": "Glucosa sérica en ayuno",
+          "indications": "Ayuno de 8 a 12 horas"
+        },
+        {
+          "uuid": "item-dia-3",
+          "position": 3,
+          "code": "",
+          "name": "Perfil de lípidos completo",
+          "indications": "Ayuno estricto de 12 horas"
+        },
+        {
+          "uuid": "item-dia-4",
+          "position": 4,
+          "code": "",
+          "name": "Creatinina sérica y TFGe",
+          "indications": ""
+        },
+        {
+          "uuid": "item-dia-5",
+          "position": 5,
+          "code": "",
+          "name": "Microalbuminuria en muestra matutina",
+          "indications": "Primera orina de la mañana"
+        },
+        {
+          "uuid": "item-dia-6",
+          "position": 6,
+          "code": "",
+          "name": "Insulina basal",
+          "indications": "Muestra en ayuno estricto"
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-perfil-lipidico",
+      "id": "pkg-perfil-lipidico",
+      "name": "Perfil lipídico / Cardiovascular",
+      "instructions": "Ayuno estricto de 12 horas. Evitar consumo de alcohol 24 horas antes.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-lip-1",
+          "position": 1,
+          "code": "",
+          "name": "Colesterol total",
+          "indications": ""
+        },
+        {
+          "uuid": "item-lip-2",
+          "position": 2,
+          "code": "",
+          "name": "Colesterol HDL",
+          "indications": ""
+        },
+        {
+          "uuid": "item-lip-3",
+          "position": 3,
+          "code": "",
+          "name": "Colesterol LDL",
+          "indications": ""
+        },
+        {
+          "uuid": "item-lip-4",
+          "position": 4,
+          "code": "",
+          "name": "Colesterol VLDL",
+          "indications": ""
+        },
+        {
+          "uuid": "item-lip-5",
+          "position": 5,
+          "code": "",
+          "name": "Triglicéridos",
+          "indications": "Ayuno estricto de 12 horas"
+        },
+        {
+          "uuid": "item-lip-6",
+          "position": 6,
+          "code": "",
+          "name": "Proteína C reactiva ultrasensible (PCR-us)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-lip-7",
+          "position": 7,
+          "code": "",
+          "name": "Apolipoproteína B (ApoB)",
+          "indications": ""
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-checkup-general",
+      "id": "pkg-checkup-general",
+      "name": "Check-up general preventivo",
+      "instructions": "Ayuno de 8 a 12 horas. Muestra de orina matutina.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-chk-1",
+          "position": 1,
+          "code": "",
+          "name": "Biometría hemática completa",
+          "indications": ""
+        },
+        {
+          "uuid": "item-chk-2",
+          "position": 2,
+          "code": "",
+          "name": "Química sanguínea integral",
+          "indications": "Ayuno de 8 a 12 horas"
+        },
+        {
+          "uuid": "item-chk-3",
+          "position": 3,
+          "code": "",
+          "name": "Perfil de lípidos",
+          "indications": "Ayuno de 12 horas"
+        },
+        {
+          "uuid": "item-chk-4",
+          "position": 4,
+          "code": "",
+          "name": "Examen general de orina (EGO)",
+          "indications": "Primera orina de la mañana"
+        },
+        {
+          "uuid": "item-chk-5",
+          "position": 5,
+          "code": "",
+          "name": "Perfil tiroideo básico (TSH, T4L)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-chk-6",
+          "position": 6,
+          "code": "",
+          "name": "Sangre oculta en heces (inmunológica)",
+          "indications": "Sin restricciones dietéticas previas"
+        },
+        {
+          "uuid": "item-chk-7",
+          "position": 7,
+          "code": "",
+          "name": "Radiografía de tórax (PA)",
+          "indications": "Sin accesorios metálicos"
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-gastrointestinal",
+      "id": "pkg-gastrointestinal",
+      "name": "Gastrointestinal / Abdominal",
+      "instructions": "Ayuno de 8 horas para ultrasonido.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-gas-1",
+          "position": 1,
+          "code": "",
+          "name": "Coproparasitoscópico en serie de 3",
+          "indications": "3 muestras en días consecutivos"
+        },
+        {
+          "uuid": "item-gas-2",
+          "position": 2,
+          "code": "",
+          "name": "Coprológico general",
+          "indications": "Muestra fresca"
+        },
+        {
+          "uuid": "item-gas-3",
+          "position": 3,
+          "code": "",
+          "name": "Amilasa y Lipasa séricas",
+          "indications": ""
+        },
+        {
+          "uuid": "item-gas-4",
+          "position": 4,
+          "code": "",
+          "name": "Antígeno Helicobacter pylori en heces",
+          "indications": ""
+        },
+        {
+          "uuid": "item-gas-5",
+          "position": 5,
+          "code": "",
+          "name": "Ultrasonido de abdomen superior",
+          "indications": "Ayuno completo de 8 horas"
+        }
+      ]
+    },
+    {
+      "uuid": "pkg-reumatologico",
+      "id": "pkg-reumatologico",
+      "name": "Reumatológico / Autoinmune básico",
+      "instructions": "Ayuno de 8 horas. No requiere suspensión de analgésicos habituales.",
+      "owner_uuid": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+      "order_package_items": [
+        {
+          "uuid": "item-reu-1",
+          "position": 1,
+          "code": "",
+          "name": "Factor reumatoide cuantitativo",
+          "indications": ""
+        },
+        {
+          "uuid": "item-reu-2",
+          "position": 2,
+          "code": "",
+          "name": "Anticuerpos antinucleares (ANA) por IFI",
+          "indications": ""
+        },
+        {
+          "uuid": "item-reu-3",
+          "position": 3,
+          "code": "",
+          "name": "Velocidad de sedimentación globular (VSG)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-reu-4",
+          "position": 4,
+          "code": "",
+          "name": "Proteína C reactiva (PCR)",
+          "indications": ""
+        },
+        {
+          "uuid": "item-reu-5",
+          "position": 5,
+          "code": "",
+          "name": "Ácido úrico sérico",
+          "indications": ""
+        },
+        {
+          "uuid": "item-reu-6",
+          "position": 6,
+          "code": "",
+          "name": "Anticuerpos anti-CCP",
+          "indications": ""
+        }
+      ]
+    }
+  ],
+  "intake_requests": []
+}

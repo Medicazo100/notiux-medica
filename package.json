@@ -1,0 +1,16 @@
+{
+  "name": "notiux-medica-local",
+  "version": "1.0.0",
+  "description": "Asistente local de IA para profesionales de la salud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "medical-ai",
+    "salud",
+    "medicos"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}

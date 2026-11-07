@@ -1,0 +1,1 @@
+var e=[`single`,`married`,`divorced`,`widowed`,`partnered`],t=[`male`,`female`,`non_binary`];export{t as n,e as t};

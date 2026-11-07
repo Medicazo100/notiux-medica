@@ -1,0 +1,1 @@
+import{r as e}from"./supportedLocales-ByEXFBAJ.js";var t={en:`/en`,pt:`/pt`};function n(n,r=e()){let i=n.startsWith(`/`)?n:`/${n}`;return`https://itaca.ai${t[r]||``}${i}`}function r(e){return n(`/privacy/`,e)}function i(e){return n(`/terms/`,e)}export{i as n,r as t};

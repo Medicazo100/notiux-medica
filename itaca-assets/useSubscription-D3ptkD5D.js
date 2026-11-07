@@ -1,0 +1,1 @@
+import{o as e}from"./rolldown-runtime-BCiCTKAo.js";import{n as t}from"./jsx-runtime-Cl3nUQcN.js";import{t as n}from"./getCurrentSubscription-CqdLb-s4.js";var r=e(t());function i(e=0){let[t,i]=(0,r.useState)(null),a=(0,r.useCallback)(async()=>{try{let e=await n();i(e)}catch{i(null)}},[]);return(0,r.useEffect)(()=>{a()},[a,e]),t}export{i as t};

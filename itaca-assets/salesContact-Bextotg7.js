@@ -1,0 +1,1 @@
+import{r as e}from"./supportedLocales-ByEXFBAJ.js";var t={en:`https://calendly.com/itaca-ai/short-call`,default:`https://calendly.com/itaca-ai/llamada`},n=(n=e())=>n===`en`?t.en:t.default,r=e=>{let t=`+525611060917`.replace(/\D/g,``);return t?`https://wa.me/${t}?text=${encodeURIComponent(e)}`:null};export{r as n,n as t};

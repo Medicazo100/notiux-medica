@@ -1,0 +1,1 @@
+import{t as e}from"./authRequest-C5hHUNbV.js";import{n as t}from"./IntakePreviewModal-THVOnAL3.js";async function n(n,r){let i=await e(`/intake_templates/${n}/upload_source_file`,{method:`POST`,data:{signed_blob_id:r}});return new t(i.data.intake_template)}export{n as t};

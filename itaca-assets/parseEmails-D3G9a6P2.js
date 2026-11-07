@@ -1,0 +1,1 @@
+var e=/^[^\s@]+@[^\s@]+\.[^\s@]+$/,t=t=>{if(!t||!t.trim())return{valid:[],invalid:[]};let n=t.split(`,`).map(e=>e.trim()).filter(Boolean),r=[],i=[];return n.forEach(t=>{e.test(t)?r.push(t):i.push(t)}),{valid:r,invalid:i}};export{t};

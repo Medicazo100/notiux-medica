@@ -1,0 +1,1 @@
+import{o as e}from"./rolldown-runtime-BCiCTKAo.js";import{n as t}from"./jsx-runtime-Cl3nUQcN.js";import{n}from"./AccountContext-_7AQjCqp.js";var r=e(t());function i(e=0){let t=n();return(0,r.useEffect)(()=>{e>0&&t.refresh()},[e,t.refresh]),t}export{i as t};

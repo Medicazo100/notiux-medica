@@ -1,0 +1,1 @@
+import{t as e}from"./authRequest-C5hHUNbV.js";import{n as t}from"./SessionPresenter-zGdpskhb.js";async function n(n){let r=await e(`/patients/${n}`,{method:`GET`});if(r.status!==200)throw Error(`Failed to fetch patient`);return new t(r.data)}export{n as t};

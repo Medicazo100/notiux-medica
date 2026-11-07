@@ -1,0 +1,1 @@
+var e=e=>{let t=Number(new URLSearchParams(e).get(`page`));return Number.isSafeInteger(t)&&t>0?t:1},t=(e,t)=>{let n=new URLSearchParams(e);return n.delete(`page`),t>1&&n.set(`page`,String(t)),n};export{e as n,t};

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [
+          "itaca-assets/**",
+          "index.html",
+          "mock_db.json",
+          "clinical_note_helper.js",
+          "logo_es.png",
+          "logo_notiux_medica.svg",
+          "apple-touch-icon.png",
+          "favicon2.ico",
+          "manifest.json"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}

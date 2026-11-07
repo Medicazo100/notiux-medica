@@ -1,0 +1,1 @@
+var e=`itaca-native-session-persisted`;function t(){typeof window<`u`&&typeof window.dispatchEvent==`function`&&window.dispatchEvent(new Event(e))}export{t as n,e as t};

@@ -1,0 +1,1 @@
+import{Ct as e,Et as t}from"./errorHandling-BGzTg7xQ.js";var n=async(n,r={})=>{let i=n.startsWith(`/`)?n:`/${n}`,a=`${e()}${i}`,{data:o,...s}=r;return t({url:a,data:o,...s})};export{n as t};

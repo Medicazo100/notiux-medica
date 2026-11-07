@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+  <!-- translate "no" is needed to prevent translate pluggins, since they introduce React errors -->
+  <!-- https://github.com/facebook/react/issues/11538 --> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="google" content="notranslate" />
+    <link rel="icon" href="/favicon2.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <!-- MedProfile doctor pages share this React build, so set their tab icon before React boots. -->
+    <script>
+      (function () {
+        var profilePathPattern = /^\/(?:dr|dra|lic|psic|nut|enf|vet|mtro|mtra)-[^/]+\/?$/;
+        var medProfileHosts = ["medprofile.net", "www.medprofile.net", "medprofile-staging.itaca.pro"];
+
+        if (!medProfileHosts.includes(window.location.hostname) || !profilePathPattern.test(window.location.pathname)) return;
+
+        var icon = document.querySelector('link[rel~="icon"]') || document.createElement("link");
+        icon.setAttribute("rel", "icon");
+        icon.setAttribute("type", "image/svg+xml");
+        icon.setAttribute("href", "/medprofile-mark.svg");
+        if (!icon.parentNode) document.head.appendChild(icon);
+      }());
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#000000" />
+    <!-- Default to noindex - public pages will override this dynamically -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      name="description"
+      content="Asistente de inteligencia artificial médica: respuestas clínicas con citas, Deep Research, análisis de casos y notas clínicas automáticas"
+    />
+    <meta property="og:title" content="Notiux Médica - asistente de IA para profesionales de la salud" />
+    <meta property="og:description" content="Asistente de inteligencia artificial médica: respuestas clínicas con citas, investigación profunda, análisis de casos y notas clínicas automáticas." />
+    <meta property="og:image" content="/logo_es.png" />
+    <meta property="og:url" content="https://notiuxmedica.com/" />
+    <meta property="og:type" content="website" />
+    <!-- Needed for Google Search console -->
+    <meta name="google-site-verification" content="OOjFGAf0bb-gY0Z9H-jSt_9fE6NqTE4G1r3ezfpQSYk" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Notiux Médica - asistente de IA para profesionales de la salud</title>
+        <script>
+      window.__API_BASE__ = window.location.origin;
+      try {
+        if (window.location.pathname === '/' && !window.location.search.includes('source=pwa')) {
+          var targetSearch = window.location.search ? window.location.search + '&source=pwa' : '?source=pwa';
+          window.history.replaceState(null, '', window.location.pathname + targetSearch + (window.location.hash || ''));
+        }
+        var origPush = window.history.pushState;
+        window.history.pushState = function(state, title, url) {
+          if (url === '/' || url === '') url = '/?source=pwa';
+          return origPush.apply(this, [state, title, url]);
+        };
+      } catch (_) {}
+      try {
+        var user = {
+          uuid: "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+          email: "medicazo@notiuxmedica.com",
+          first_name: "Medicazo",
+          last_name: "",
+          full_name: "Medicazo",
+          display_name: "Medicazo",
+          display_first_name: "Medicazo",
+          display_initials: "M",
+          role: "md",
+          survey_role: "md",
+          organization_uuid: "b0eebc99-9c0b-4ef8-bb6d-6bb9bd380a22",
+          locale: "es",
+          timezone: "America/Mexico_City",
+          internal: false,
+          calendarConnectDismissed: true
+        };
+        var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYTBlZWJjOTktOWMwYi00ZWY4LWJiNmQtNmJiOWJkMzgwYTExIiwiaW50ZXJuYWwiOmZhbHNlLCJzdWIiOiJhMGVlYmM5OS05YzBiLTRlZjgtYmI2ZC02YmI5YmQzODBhMTEiLCJlbWFpbCI6Im1lZGljYXpvQGl0YWNhLnBybyIsImV4cCI6MTk5OTk5OTk5OX0.mockSignature";
+        if (!localStorage.getItem('currentUser')) {
+          localStorage.setItem('currentUser', JSON.stringify(user));
+        }
+        if (!localStorage.getItem('userToken')) {
+          localStorage.setItem('userToken', token);
+        }
+        if (!localStorage.getItem('refreshToken')) {
+          localStorage.setItem('refreshToken', 'mock_refresh_token_medicazo');
+        }
+        if (!localStorage.getItem('itaca.auth.session')) {
+          localStorage.setItem('itaca.auth.session', JSON.stringify({
+            id: "sess_medicazo_001",
+            token: token,
+            refreshToken: "mock_refresh_token_medicazo"
+          }));
+        }
+      } catch (e) {
+        console.error("Failed to seed initial auth session:", e);
+      }
+    </script>
+    <script type="module" crossorigin src="/itaca-assets/index-Ctl6RXvm.js"></script>
+    <link rel="modulepreload" crossorigin href="/itaca-assets/rolldown-runtime-BCiCTKAo.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/jsx-runtime-Cl3nUQcN.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/i18nInstance-De4VpWd_.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/preload-helper-qd0dFLx6.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/errorHandling-BGzTg7xQ.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/userStorage-B_Vz9E7X.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/runtimeSnapshot-CsLeWZEg.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/attachmentAdapter-BY1nIj0B.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/runtimeContext-BdyTsNK0.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/build-hTByFGMt.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/authRequest-C5hHUNbV.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/audioStorage-DgKjYmK8.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/EditOutlined-DHOKhZeq.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/alert-C8k_h8zk.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/Input-Cxk35OxL.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/context-DoitALsI.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/useBreakpoint-D-fTVDBk.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/es-CSLaDzcG.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/DownOutlined-DbZDaMcJ.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/SearchOutlined-DLpYOlG2.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/select-zIgdNuoF.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/dayjs.min-BHo85-_N.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/CalendarOutlined-CLC21ISK.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ClockCircleOutlined-CiEn6jRX.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/date-picker-BYlZIQz0.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/LeftOutlined-CUr4TBq3.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/collapse-CVZX-k2a.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/collapse-3pcKDyta.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/typography-DMjOdG-H.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/EllipsisOutlined-BVvJO7nJ.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/Sider-BqOkOpg0.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/space-CsVaRjqw.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/dropdown-Di3cruAX.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/radio-B16t1Fjl.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/PlusOutlined-yloER0YS.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/tabs-BR2spPxC.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/card-DQG9mh_n.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/spin-DBPcicRt.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/checkbox-BlPeoSdE.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/grid-mHPO1bCx.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/row-CEivJ6li.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/row-BC054xSF.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/divider-C-RMRRb2.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/UpOutlined-BUIdwvKP.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/input-number-C28gxbuE.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/descriptions-BZw5y_GW.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/form-BaWM3-RR.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/input-L3jaS4zN.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/pagination-Bcadrv8M.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/list-Brfnax_8.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/FolderOpenOutlined-BS3DqzIz.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/DeleteOutlined-CfT2RGrM.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/DownloadOutlined-Cs780fdY.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/upload-n3nQTf8A.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/useTranslation-D-wdkcoV.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ArrowRightOutlined-Dhck1SO6.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/FileWordOutlined-CDArXPL5.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/HeartOutlined-BVN0HEO8.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/InboxOutlined-DidRFt8H.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/MedicineBoxOutlined-Bi7uLZ6V.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/SafetyOutlined-BTBwkAlG.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/directUploadFile-Ds4ITaYY.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/supportedLocales-ByEXFBAJ.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/dateUtils-CYcC1OJx.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/demographicsConstants-r5g8ENzE.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/phonePlaceholder-ytLX2G3q.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/fast-deep-equal-gvnWOPqA.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/IntakeFormView-DDkgTNc1.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/metaConversionQueue-Dpmf6Zhp.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/analytics-BA8mFhA4.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/sanitizeHtml-B359Px3n.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/clipboard-Dq1GUc8-.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/CopyToClipboardButton-CXZAJ7BY.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/FileTextOutlined-0FjznnBn.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/addEventListener-B0eWgq-x.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/SwapOutlined-BC1-Arvq.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/image-BfFQcU0A.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/prop-types-DUAr48Yu.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/message-DAVZwlXF.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/FolderOutlined-Dcow-ZIb.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/tag-RiONfv3e.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/EnvironmentOutlined-DJW4CKP3.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/nativeSessionEvents-5hF1SYNz.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/AccountContext-_7AQjCqp.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/useAccount-b-S5SSi8.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/currencyUtils-CtqCJvn8.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ProfileMyForm-C-2mD8CX.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/CloseCircleOutlined-BFpoqHGc.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/CloudUploadOutlined-ClTa0rYw.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/SubmitArrowButton-C0R8MNjG.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ThumbsRating-D8OSaXPm.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/IdcardOutlined-CIAI0rYA.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/MoreOutlined-BddYD0p0.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/AppstoreOutlined-CM8U8c_S.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ArrowLeftOutlined-B6ssJhZl.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/LinkOutlined-CHd5meYV.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/MailOutlined-dInoUFDS.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/WhatsAppOutlined-iFspJZio.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/userDisplayName-EWBT_pSc.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/FilePresenter-DSvDcWOb.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/SessionPresenter-zGdpskhb.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/LightThemeScope-Bb2JiF4w.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/IntakePreviewModal-THVOnAL3.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/fetchPatient-CaQJ3EB1.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/events-BAo89vAO.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/tslib.es6-BK41UOt0.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/__vite-browser-external-BwpP9LFt.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/react-pdf.browser-BhBhWjHr.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/PhoneOutlined-C5hXalDs.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/domUtils-Dj3Bo1fB.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/downloadExportFile-34lBg70C.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/saveGeneratedPdf-gIs47JQU.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/generatePDF-Isauv6aA.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/parseEmails-D3G9a6P2.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/PatientSelect-CM9_MGNY.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/PatientSelectorPanel-BG8a_yD3.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/fileUploadUtils-BjLBb4Do.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/searchTextNormalization-CIa4u-gz.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/StopOutlined-BHPtgRi6.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ClinicalRecordExclusion-BjrMih8P.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/lib-actehevX.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/lib-UgqSaF0n.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/LockOutlined-uBtPWS74.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/getCurrentSubscription-CqdLb-s4.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/useSubscription-D3ptkD5D.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/subscriptionCtaPolicy-MwQpMTQt.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/MobileWebUpgradeMessage-BV373uQd.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/UpgradeCard-VXm4UvaP.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/PatientDocumentDrawer-R5XAgYMc.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/AudioOutlined-RYu2KFhH.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/BulbOutlined-CCHIEPlb.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/CheckCircleOutlined-q5WaqRrF.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ExclamationCircleOutlined-BEfCzZIA.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ExperimentOutlined-BvBqDi-h.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/ExportOutlined-DbozGqg5.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/FormOutlined-DH5RDEI_.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/UserAddOutlined-CEzFT3In.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/updateSession-C6tddkXq.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/useAppReviewResult-kvickqpJ.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/parsePhoneNumber-DMXSM2jm.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/CallPresenter-CIxPqXvy.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/FileAddOutlined-BwOJUY8L.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/Markdown-DW2K_o4m.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/deleteNoteTemplate-DdO1XWuA.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/NoteTypeSelector-DvMCRFvI.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/importedNoteFormatting-v7dGB7cQ.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/iconBase-D29p1Y8a.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/lu-BTN2IXQD.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/PatientLinkModal-Cd4QoOou.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/FileDoneOutlined-BfEkvC7G.js">
+    <link rel="modulepreload" crossorigin href="/itaca-assets/OrganizationMemberPresenter-CJxJgLWI.js">
+    <link rel="stylesheet" crossorigin href="/itaca-assets/IntakeFormView-0iOQzKjE.css">
+    <link rel="stylesheet" crossorigin href="/itaca-assets/PatientSelectorPanel-CMx0AgXQ.css">
+    <link rel="stylesheet" crossorigin href="/itaca-assets/ClinicalRecordExclusion-ajMpFtAQ.css">
+    <link rel="stylesheet" crossorigin href="/itaca-assets/PatientDocumentDrawer-DRpgkshJ.css">
+    <link rel="stylesheet" crossorigin href="/itaca-assets/PatientLinkModal-DSVm4oOp.css">
+    <link rel="stylesheet" crossorigin href="/itaca-assets/index-CiVjvuCl.css">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

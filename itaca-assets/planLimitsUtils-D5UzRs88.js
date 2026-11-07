@@ -1,0 +1,1 @@
+var e=e=>{let t=e?.recordsRemaining;if(t==null)return!1;let n=Number(t);return!isNaN(n)&&n<=3};export{e as t};

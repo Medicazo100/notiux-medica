@@ -1,0 +1,1 @@
+import"./rolldown-runtime-BCiCTKAo.js";import{n as e,t}from"./jsx-runtime-Cl3nUQcN.js";e();var n=t();function r(){return(0,n.jsx)(`div`,{className:`page`,children:`Settings`})}export{r as default};

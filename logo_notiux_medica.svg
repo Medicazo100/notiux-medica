@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="812" height="252" viewBox="0 0 812 252" fill="none" role="img" aria-label="Notiux Médica">
+<g stroke="#008B8B" stroke-width="17" stroke-linejoin="round"><path d="M26 20h139l38 38v148a29 29 0 0 1-29 29H39a29 29 0 0 1-29-29V37a17 17 0 0 1 16-17Z"/></g>
+<path fill="#008B8B" d="M91 67a12 12 0 0 1 24 0v40h40a12 12 0 0 1 0 24h-40v40a12 12 0 0 1-24 0v-40H51a12 12 0 0 1 0-24h40V67Z"/>
+<text x="280" y="135" fill="#008B8B" font-family="Segoe UI,Arial,sans-serif" font-size="105" font-weight="600">Notiux</text>
+<text x="286" y="208" fill="#008B8B" font-family="Segoe UI,Arial,sans-serif" font-size="37" font-weight="600" letter-spacing="5">MÉDICA</text>
+</svg>

@@ -1,0 +1,1 @@
+import{t as e}from"./attachmentAdapter-BY1nIj0B.js";import{t}from"./runtimeSnapshot-CsLeWZEg.js";import{t as n}from"./downloadExportFile-34lBg70C.js";async function r(r,i){let a=t();return a.isMobileApp?e({...a,capabilities:a.payload?.capabilities||{}}).savePdf(r,i):(n(r,i),{status:`saved`})}export{r as t};

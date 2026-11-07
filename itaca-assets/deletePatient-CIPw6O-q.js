@@ -1,0 +1,1 @@
+import{t as e}from"./authRequest-C5hHUNbV.js";var t=async t=>{try{if((await e(`/patients/${t}`,{method:`DELETE`})).status===200)return!0;throw Error(`Failed to delete patient`)}catch(e){throw console.error(`Error deleting patient:`,e),e}};export{t};

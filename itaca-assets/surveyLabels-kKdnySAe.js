@@ -1,0 +1,1 @@
+function e(e,t){let n=String(t||``).trim();return n?e(`survey.specialties.${n}`,{defaultValue:n}):null}export{e as t};

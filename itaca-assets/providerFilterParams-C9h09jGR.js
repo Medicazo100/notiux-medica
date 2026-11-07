@@ -1,0 +1,1 @@
+function e(e,t,n){let r={};return e?.isClinic?.()&&(t===`all`||(r.user_uuid=t==null||t===`me`?n:t)),r}export{e as t};
